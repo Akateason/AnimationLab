@@ -19,6 +19,8 @@
 		8F5C09A91ECD1EF20061CDEF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C099F1ECD1EF20061CDEF /* ViewController+MASAdditions.m */; };
 		8F5C09AC1ECD23240061CDEF /* Zample2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09AB1ECD23240061CDEF /* Zample2Controller.m */; };
 		8F5C09AF1ECD26A60061CDEF /* Zample3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09AE1ECD26A60061CDEF /* Zample3Controller.m */; };
+		8F5C09B21ECD3FC90061CDEF /* Zample4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09B11ECD3FC80061CDEF /* Zample4Controller.m */; };
+		8F5C09B51ECD45280061CDEF /* Zample5Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09B41ECD45280061CDEF /* Zample5Controller.m */; };
 		8FD33A351ECC2E6000BC488B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A341ECC2E6000BC488B /* main.m */; };
 		8FD33A381ECC2E6000BC488B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A371ECC2E6000BC488B /* AppDelegate.m */; };
 		8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A3A1ECC2E6000BC488B /* ViewController.m */; };
@@ -78,6 +80,10 @@
 		8F5C09AB1ECD23240061CDEF /* Zample2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample2Controller.m; sourceTree = "<group>"; };
 		8F5C09AD1ECD26A60061CDEF /* Zample3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample3Controller.h; sourceTree = "<group>"; };
 		8F5C09AE1ECD26A60061CDEF /* Zample3Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample3Controller.m; sourceTree = "<group>"; };
+		8F5C09B01ECD3FC80061CDEF /* Zample4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample4Controller.h; sourceTree = "<group>"; };
+		8F5C09B11ECD3FC80061CDEF /* Zample4Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample4Controller.m; sourceTree = "<group>"; };
+		8F5C09B31ECD45280061CDEF /* Zample5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample5Controller.h; sourceTree = "<group>"; };
+		8F5C09B41ECD45280061CDEF /* Zample5Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample5Controller.m; sourceTree = "<group>"; };
 		8FD33A301ECC2E6000BC488B /* AnimationLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD33A341ECC2E6000BC488B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FD33A361ECC2E6000BC488B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -232,6 +238,10 @@
 				8F5C09AB1ECD23240061CDEF /* Zample2Controller.m */,
 				8F5C09AD1ECD26A60061CDEF /* Zample3Controller.h */,
 				8F5C09AE1ECD26A60061CDEF /* Zample3Controller.m */,
+				8F5C09B01ECD3FC80061CDEF /* Zample4Controller.h */,
+				8F5C09B11ECD3FC80061CDEF /* Zample4Controller.m */,
+				8F5C09B31ECD45280061CDEF /* Zample5Controller.h */,
+				8F5C09B41ECD45280061CDEF /* Zample5Controller.m */,
 			);
 			path = Zample;
 			sourceTree = "<group>";
@@ -382,9 +392,11 @@
 				8F5C09A81ECD1EF20061CDEF /* View+MASAdditions.m in Sources */,
 				8F5C09A01ECD1EF20061CDEF /* MASCompositeConstraint.m in Sources */,
 				8F5C09A41ECD1EF20061CDEF /* MASViewAttribute.m in Sources */,
+				8F5C09B51ECD45280061CDEF /* Zample5Controller.m in Sources */,
 				8F5C09A21ECD1EF20061CDEF /* MASConstraintMaker.m in Sources */,
 				8F5C09A61ECD1EF20061CDEF /* NSArray+MASAdditions.m in Sources */,
 				8F5C09A91ECD1EF20061CDEF /* ViewController+MASAdditions.m in Sources */,
+				8F5C09B21ECD3FC90061CDEF /* Zample4Controller.m in Sources */,
 				8F5C09A11ECD1EF20061CDEF /* MASConstraint.m in Sources */,
 				8F5C09AC1ECD23240061CDEF /* Zample2Controller.m in Sources */,
 				8F5C09A31ECD1EF20061CDEF /* MASLayoutConstraint.m in Sources */,
