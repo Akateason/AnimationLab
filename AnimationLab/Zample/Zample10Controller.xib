@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Zample10Controller">
+            <connections>
+                <outlet property="containerView" destination="i5M-Pr-FkT" id="TFH-bL-uFI"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="faces" destination="RgW-Nb-D7d" id="6gG-Tv-c29"/>
+                <outletCollection property="faces" destination="kT7-Vn-ooL" id="Qkd-0u-YBz"/>
+                <outletCollection property="faces" destination="6Kd-Nq-cDf" id="3fm-lx-yeo"/>
+                <outletCollection property="faces" destination="v7e-sX-Pca" id="mu6-5F-2r3"/>
+                <outletCollection property="faces" destination="FCd-VX-npF" id="2sN-Iq-bHX"/>
+                <outletCollection property="faces" destination="iHX-vb-Lcg" id="2Vo-EY-3aJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="-106" y="42"/>
+        </view>
+        <view contentMode="scaleToFill" id="RgW-Nb-D7d">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXS-w9-egH">
+                    <rect key="frame" x="46" y="40" width="8" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="GXS-w9-egH" firstAttribute="centerX" secondItem="RgW-Nb-D7d" secondAttribute="centerX" id="Xxe-a0-2go"/>
+                <constraint firstItem="GXS-w9-egH" firstAttribute="centerY" secondItem="RgW-Nb-D7d" secondAttribute="centerY" id="iQu-os-2tb"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-323.5" y="522.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="kT7-Vn-ooL">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHP-rk-Wod">
+                    <rect key="frame" x="45" y="40" width="10" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yHP-rk-Wod" firstAttribute="centerY" secondItem="kT7-Vn-ooL" secondAttribute="centerY" id="dJw-3K-a2g"/>
+                <constraint firstItem="yHP-rk-Wod" firstAttribute="centerX" secondItem="kT7-Vn-ooL" secondAttribute="centerX" id="ics-ha-FWp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-158" y="522"/>
+        </view>
+        <view contentMode="scaleToFill" id="6Kd-Nq-cDf">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uod-9E-Hmp">
+                    <rect key="frame" x="45" y="40" width="10.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="uod-9E-Hmp" firstAttribute="centerX" secondItem="6Kd-Nq-cDf" secondAttribute="centerX" id="3Hu-QM-Wir"/>
+                <constraint firstItem="uod-9E-Hmp" firstAttribute="centerY" secondItem="6Kd-Nq-cDf" secondAttribute="centerY" id="HkO-4e-dCk"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="11" y="522"/>
+        </view>
+        <view contentMode="scaleToFill" id="v7e-sX-Pca">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UQ0-7t-eAC">
+                    <rect key="frame" x="44.5" y="40" width="11" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="UQ0-7t-eAC" firstAttribute="centerX" secondItem="v7e-sX-Pca" secondAttribute="centerX" id="ahy-WP-WxO"/>
+                <constraint firstItem="UQ0-7t-eAC" firstAttribute="centerY" secondItem="v7e-sX-Pca" secondAttribute="centerY" id="kSK-N1-2Xh"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-324" y="695"/>
+        </view>
+        <view contentMode="scaleToFill" id="FCd-VX-npF">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdi-4W-T7d">
+                    <rect key="frame" x="45" y="40" width="10.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Kdi-4W-T7d" firstAttribute="centerX" secondItem="FCd-VX-npF" secondAttribute="centerX" id="DRf-18-9nb"/>
+                <constraint firstItem="Kdi-4W-T7d" firstAttribute="centerY" secondItem="FCd-VX-npF" secondAttribute="centerY" id="iaZ-tR-KVF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-158" y="695"/>
+        </view>
+        <view contentMode="scaleToFill" id="iHX-vb-Lcg">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZn-lD-AEN">
+                    <rect key="frame" x="45" y="40" width="10.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="XZn-lD-AEN" firstAttribute="centerX" secondItem="iHX-vb-Lcg" secondAttribute="centerX" id="QFm-4H-LAa"/>
+                <constraint firstItem="XZn-lD-AEN" firstAttribute="centerY" secondItem="iHX-vb-Lcg" secondAttribute="centerY" id="zn1-sw-ZYs"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="11" y="695"/>
+        </view>
+    </objects>
+</document>
