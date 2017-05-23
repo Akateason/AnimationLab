@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "HomeCell.h"
-#import <objc/runtime.h>
+
 
 @interface ViewController () <UITableViewDataSource,UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *table ;
@@ -27,13 +27,13 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 20 ;
+    return 2 ;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     HomeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HomeCell"] ;
-    cell.textLabel.text = [NSString stringWithFormat:@"Zample%dController",(int)indexPath.row+1] ;
+    cell.textLabel.text = !indexPath.row ? @"layer" : @"animation" ;
     return cell ;
 }
 
@@ -44,22 +44,23 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    HomeCell *cell = (HomeCell *)[tableView cellForRowAtIndexPath:indexPath] ;
-    NSString *title = cell.textLabel.text ;
-    Class cls = objc_getRequiredClass([title UTF8String]) ;
-    UIViewController *ctrller = [[cls alloc] init] ;
-    ctrller.title = title ;
-    [self.navigationController pushViewController:ctrller animated:YES] ;
+    if (!indexPath.row)
+    {
+        [self performSegueWithIdentifier:@"lab2layer" sender:@"layer"] ;
+    }
+    else
+    {
+        [self performSegueWithIdentifier:@"lab2animate" sender:@"animation"] ;
+    }
 }
-
-
-
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    [segue destinationViewController].title = sender ;
+}
 @end
