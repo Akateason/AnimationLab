@@ -42,6 +42,18 @@
 		8FE9C4F91ED3DF3F003DA221 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C4F81ED3DF3F003DA221 /* BaseVC.m */; };
 		8FE9C4FC1ED3FF82003DA221 /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C4FB1ED3FF82003DA221 /* LayerLabel.m */; };
 		8FE9C4FF1ED4018E003DA221 /* Zample13Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C4FE1ED4018E003DA221 /* Zample13Controller.m */; };
+		8FE9C5021ED4045F003DA221 /* Zample14Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5011ED4045F003DA221 /* Zample14Controller.m */; };
+		8FE9C5051ED405FB003DA221 /* Zample15Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5041ED405FB003DA221 /* Zample15Controller.m */; };
+		8FE9C5081ED407A2003DA221 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5071ED407A2003DA221 /* ReflectionView.m */; };
+		8FE9C50B1ED40960003DA221 /* Zample16Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C50A1ED40960003DA221 /* Zample16Controller.m */; };
+		8FE9C50E1ED40DB5003DA221 /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C50D1ED40DB5003DA221 /* ScrollView.m */; };
+		8FE9C5111ED4189E003DA221 /* Zample17Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5101ED4189E003DA221 /* Zample17Controller.m */; };
+		8FE9C5141ED41E5D003DA221 /* Zample18Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5131ED41E5D003DA221 /* Zample18Controller.m */; };
+		8FE9C5171ED4229A003DA221 /* LayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5161ED4229A003DA221 /* LayerViewController.m */; };
+		8FE9C51D1ED422CF003DA221 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C51C1ED422CF003DA221 /* AnimationViewController.m */; };
+		8FE9C5231ED42A50003DA221 /* Zample19Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5221ED42A50003DA221 /* Zample19Controller.m */; };
+		8FE9C5251ED42B14003DA221 /* test.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8FE9C5241ED42B14003DA221 /* test.mov */; };
+		8FE9C52A1ED42CC9003DA221 /* Zample20Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5291ED42CC9003DA221 /* Zample20Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,10 +144,33 @@
 		8FE9C4F51ED3DF11003DA221 /* Zample12Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample12Controller.m; sourceTree = "<group>"; };
 		8FE9C4F71ED3DF3F003DA221 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
 		8FE9C4F81ED3DF3F003DA221 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
-		8FE9C4FA1ED3FF82003DA221 /* LayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
-		8FE9C4FB1ED3FF82003DA221 /* LayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
+		8FE9C4FA1ED3FF82003DA221 /* LayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LayerLabel.h; path = ../LayerLabel.h; sourceTree = "<group>"; };
+		8FE9C4FB1ED3FF82003DA221 /* LayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LayerLabel.m; path = ../LayerLabel.m; sourceTree = "<group>"; };
 		8FE9C4FD1ED4018E003DA221 /* Zample13Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample13Controller.h; sourceTree = "<group>"; };
 		8FE9C4FE1ED4018E003DA221 /* Zample13Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample13Controller.m; sourceTree = "<group>"; };
+		8FE9C5001ED4045F003DA221 /* Zample14Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample14Controller.h; sourceTree = "<group>"; };
+		8FE9C5011ED4045F003DA221 /* Zample14Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample14Controller.m; sourceTree = "<group>"; };
+		8FE9C5031ED405FB003DA221 /* Zample15Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample15Controller.h; sourceTree = "<group>"; };
+		8FE9C5041ED405FB003DA221 /* Zample15Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample15Controller.m; sourceTree = "<group>"; };
+		8FE9C5061ED407A2003DA221 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		8FE9C5071ED407A2003DA221 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		8FE9C5091ED40960003DA221 /* Zample16Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample16Controller.h; sourceTree = "<group>"; };
+		8FE9C50A1ED40960003DA221 /* Zample16Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample16Controller.m; sourceTree = "<group>"; };
+		8FE9C50C1ED40DB5003DA221 /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollView.h; path = ../ScrollView.h; sourceTree = "<group>"; };
+		8FE9C50D1ED40DB5003DA221 /* ScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollView.m; path = ../ScrollView.m; sourceTree = "<group>"; };
+		8FE9C50F1ED4189E003DA221 /* Zample17Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample17Controller.h; sourceTree = "<group>"; };
+		8FE9C5101ED4189E003DA221 /* Zample17Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample17Controller.m; sourceTree = "<group>"; };
+		8FE9C5121ED41E5D003DA221 /* Zample18Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample18Controller.h; sourceTree = "<group>"; };
+		8FE9C5131ED41E5D003DA221 /* Zample18Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample18Controller.m; sourceTree = "<group>"; };
+		8FE9C5151ED4229A003DA221 /* LayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerViewController.h; sourceTree = "<group>"; };
+		8FE9C5161ED4229A003DA221 /* LayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerViewController.m; sourceTree = "<group>"; };
+		8FE9C51B1ED422CF003DA221 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		8FE9C51C1ED422CF003DA221 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		8FE9C5211ED42A50003DA221 /* Zample19Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample19Controller.h; sourceTree = "<group>"; };
+		8FE9C5221ED42A50003DA221 /* Zample19Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample19Controller.m; sourceTree = "<group>"; };
+		8FE9C5241ED42B14003DA221 /* test.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.mov; sourceTree = "<group>"; };
+		8FE9C5281ED42CC9003DA221 /* Zample20Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample20Controller.h; sourceTree = "<group>"; };
+		8FE9C5291ED42CC9003DA221 /* Zample20Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample20Controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,15 +254,12 @@
 		8FD33A321ECC2E6000BC488B /* AnimationLab */ = {
 			isa = PBXGroup;
 			children = (
+				8FE9C5241ED42B14003DA221 /* test.mov */,
 				8FD33A361ECC2E6000BC488B /* AppDelegate.h */,
 				8FD33A371ECC2E6000BC488B /* AppDelegate.m */,
-				8FD33A391ECC2E6000BC488B /* ViewController.h */,
-				8FD33A3A1ECC2E6000BC488B /* ViewController.m */,
-				8FD33A661ECC2F0700BC488B /* HomeCell.h */,
-				8FD33A671ECC2F0700BC488B /* HomeCell.m */,
-				8FE9C4FA1ED3FF82003DA221 /* LayerLabel.h */,
-				8FE9C4FB1ED3FF82003DA221 /* LayerLabel.m */,
-				8FD33A691ECC30C000BC488B /* Zample */,
+				8FE9C51F1ED425A2003DA221 /* controller */,
+				8FE9C51E1ED4258B003DA221 /* view */,
+				8FD33A691ECC30C000BC488B /* ZampleLayer */,
 				8FD33A3C1ECC2E6000BC488B /* Main.storyboard */,
 				8FD33A3F1ECC2E6000BC488B /* Assets.xcassets */,
 				8FD33A411ECC2E6000BC488B /* LaunchScreen.storyboard */,
@@ -263,11 +295,58 @@
 			path = AnimationLabUITests;
 			sourceTree = "<group>";
 		};
-		8FD33A691ECC30C000BC488B /* Zample */ = {
+		8FD33A691ECC30C000BC488B /* ZampleLayer */ = {
 			isa = PBXGroup;
 			children = (
+				8FE9C5201ED425B7003DA221 /* cusView */,
 				8FE9C4F71ED3DF3F003DA221 /* BaseVC.h */,
 				8FE9C4F81ED3DF3F003DA221 /* BaseVC.m */,
+				8FE9C5261ED42C9B003DA221 /* layer */,
+				8FE9C5281ED42CC9003DA221 /* Zample20Controller.h */,
+				8FE9C5291ED42CC9003DA221 /* Zample20Controller.m */,
+			);
+			name = ZampleLayer;
+			path = Zample;
+			sourceTree = "<group>";
+		};
+		8FE9C51E1ED4258B003DA221 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8FD33A661ECC2F0700BC488B /* HomeCell.h */,
+				8FD33A671ECC2F0700BC488B /* HomeCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		8FE9C51F1ED425A2003DA221 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FD33A391ECC2E6000BC488B /* ViewController.h */,
+				8FD33A3A1ECC2E6000BC488B /* ViewController.m */,
+				8FE9C5151ED4229A003DA221 /* LayerViewController.h */,
+				8FE9C5161ED4229A003DA221 /* LayerViewController.m */,
+				8FE9C51B1ED422CF003DA221 /* AnimationViewController.h */,
+				8FE9C51C1ED422CF003DA221 /* AnimationViewController.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		8FE9C5201ED425B7003DA221 /* cusView */ = {
+			isa = PBXGroup;
+			children = (
+				8FE9C4FA1ED3FF82003DA221 /* LayerLabel.h */,
+				8FE9C4FB1ED3FF82003DA221 /* LayerLabel.m */,
+				8FE9C5061ED407A2003DA221 /* ReflectionView.h */,
+				8FE9C5071ED407A2003DA221 /* ReflectionView.m */,
+				8FE9C50C1ED40DB5003DA221 /* ScrollView.h */,
+				8FE9C50D1ED40DB5003DA221 /* ScrollView.m */,
+			);
+			name = cusView;
+			sourceTree = "<group>";
+		};
+		8FE9C5261ED42C9B003DA221 /* layer */ = {
+			isa = PBXGroup;
+			children = (
 				8FD33A6A1ECC30D300BC488B /* Zample1Controller.h */,
 				8FD33A6B1ECC30D300BC488B /* Zample1Controller.m */,
 				8F5C09AA1ECD23240061CDEF /* Zample2Controller.h */,
@@ -295,8 +374,20 @@
 				8FE9C4F51ED3DF11003DA221 /* Zample12Controller.m */,
 				8FE9C4FD1ED4018E003DA221 /* Zample13Controller.h */,
 				8FE9C4FE1ED4018E003DA221 /* Zample13Controller.m */,
+				8FE9C5001ED4045F003DA221 /* Zample14Controller.h */,
+				8FE9C5011ED4045F003DA221 /* Zample14Controller.m */,
+				8FE9C5031ED405FB003DA221 /* Zample15Controller.h */,
+				8FE9C5041ED405FB003DA221 /* Zample15Controller.m */,
+				8FE9C5091ED40960003DA221 /* Zample16Controller.h */,
+				8FE9C50A1ED40960003DA221 /* Zample16Controller.m */,
+				8FE9C50F1ED4189E003DA221 /* Zample17Controller.h */,
+				8FE9C5101ED4189E003DA221 /* Zample17Controller.m */,
+				8FE9C5121ED41E5D003DA221 /* Zample18Controller.h */,
+				8FE9C5131ED41E5D003DA221 /* Zample18Controller.m */,
+				8FE9C5211ED42A50003DA221 /* Zample19Controller.h */,
+				8FE9C5221ED42A50003DA221 /* Zample19Controller.m */,
 			);
-			path = Zample;
+			name = layer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -409,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F5C09CB1ED26CCA0061CDEF /* Zample10Controller.xib in Resources */,
+				8FE9C5251ED42B14003DA221 /* test.mov in Resources */,
 				8FD33A431ECC2E6000BC488B /* LaunchScreen.storyboard in Resources */,
 				8FD33A401ECC2E6000BC488B /* Assets.xcassets in Resources */,
 				8FD33A3E1ECC2E6000BC488B /* Main.storyboard in Resources */,
@@ -447,23 +539,34 @@
 				8FD33A6C1ECC30D300BC488B /* Zample1Controller.m in Sources */,
 				8F5C09AF1ECD26A60061CDEF /* Zample3Controller.m in Sources */,
 				8F5C09A81ECD1EF20061CDEF /* View+MASAdditions.m in Sources */,
+				8FE9C5111ED4189E003DA221 /* Zample17Controller.m in Sources */,
+				8FE9C50B1ED40960003DA221 /* Zample16Controller.m in Sources */,
 				8F5C09A01ECD1EF20061CDEF /* MASCompositeConstraint.m in Sources */,
 				8F5C09A41ECD1EF20061CDEF /* MASViewAttribute.m in Sources */,
 				8F5C09BB1ECEDAF00061CDEF /* Zample7Controller.m in Sources */,
 				8F5C09B51ECD45280061CDEF /* Zample5Controller.m in Sources */,
+				8FE9C5141ED41E5D003DA221 /* Zample18Controller.m in Sources */,
 				8FE9C4F21ED3DBEB003DA221 /* Zample11Controller.m in Sources */,
 				8F5C09A21ECD1EF20061CDEF /* MASConstraintMaker.m in Sources */,
+				8FE9C5081ED407A2003DA221 /* ReflectionView.m in Sources */,
+				8FE9C50E1ED40DB5003DA221 /* ScrollView.m in Sources */,
+				8FE9C5021ED4045F003DA221 /* Zample14Controller.m in Sources */,
+				8FE9C51D1ED422CF003DA221 /* AnimationViewController.m in Sources */,
 				8F5C09A61ECD1EF20061CDEF /* NSArray+MASAdditions.m in Sources */,
 				8F5C09B81ECE88F30061CDEF /* Zample6Controller.m in Sources */,
+				8FE9C5051ED405FB003DA221 /* Zample15Controller.m in Sources */,
 				8F5C09A91ECD1EF20061CDEF /* ViewController+MASAdditions.m in Sources */,
 				8F5C09B21ECD3FC90061CDEF /* Zample4Controller.m in Sources */,
 				8F5C09A11ECD1EF20061CDEF /* MASConstraint.m in Sources */,
+				8FE9C5231ED42A50003DA221 /* Zample19Controller.m in Sources */,
+				8FE9C5171ED4229A003DA221 /* LayerViewController.m in Sources */,
 				8F5C09AC1ECD23240061CDEF /* Zample2Controller.m in Sources */,
 				8FE9C4F91ED3DF3F003DA221 /* BaseVC.m in Sources */,
 				8F5C09BE1ECEE0140061CDEF /* Zample8Controller.m in Sources */,
 				8F5C09A31ECD1EF20061CDEF /* MASLayoutConstraint.m in Sources */,
 				8FE9C4F61ED3DF11003DA221 /* Zample12Controller.m in Sources */,
 				8FD33A351ECC2E6000BC488B /* main.m in Sources */,
+				8FE9C52A1ED42CC9003DA221 /* Zample20Controller.m in Sources */,
 				8F5C09C11ECEE3000061CDEF /* Zample9Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

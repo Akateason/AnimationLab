@@ -33,7 +33,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     HomeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HomeCell"] ;
-    cell.textLabel.text = !indexPath.row ? @"layer" : @"animation" ;
+    cell.textLabel.text = !indexPath.row ? @"CoreAnimation" : @"animation demo" ;
     return cell ;
 }
 
@@ -46,11 +46,11 @@
 {
     if (!indexPath.row)
     {
-        [self performSegueWithIdentifier:@"lab2layer" sender:@"layer"] ;
+        [self performSegueWithIdentifier:@"lab2layer" sender:@"CoreAnimation"] ;
     }
     else
     {
-        [self performSegueWithIdentifier:@"lab2animate" sender:@"animation"] ;
+        [self performSegueWithIdentifier:@"lab2animate" sender:@"animation demo"] ;
     }
 }
 
