@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F25F9231EE68F960052A21D /* Zample21Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25F9221EE68F960052A21D /* Zample21Controller.m */; };
+		8F25F9261EE68FD20052A21D /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25F9251EE68FD20052A21D /* DrawView.m */; };
+		8F25F9291EE6924C0052A21D /* DrawShapelayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25F9281EE6924C0052A21D /* DrawShapelayerView.m */; };
 		8F5C09A01ECD1EF20061CDEF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09881ECD1EF20061CDEF /* MASCompositeConstraint.m */; };
 		8F5C09A11ECD1EF20061CDEF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C098B1ECD1EF20061CDEF /* MASConstraint.m */; };
 		8F5C09A21ECD1EF20061CDEF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C098D1ECD1EF20061CDEF /* MASConstraintMaker.m */; };
@@ -74,6 +77,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F25F9211EE68F960052A21D /* Zample21Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample21Controller.h; sourceTree = "<group>"; };
+		8F25F9221EE68F960052A21D /* Zample21Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample21Controller.m; sourceTree = "<group>"; };
+		8F25F9241EE68FD20052A21D /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		8F25F9251EE68FD20052A21D /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		8F25F9271EE6924C0052A21D /* DrawShapelayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawShapelayerView.h; sourceTree = "<group>"; };
+		8F25F9281EE6924C0052A21D /* DrawShapelayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawShapelayerView.m; sourceTree = "<group>"; };
 		8F5C09871ECD1EF20061CDEF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		8F5C09881ECD1EF20061CDEF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		8F5C09891ECD1EF20061CDEF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -302,8 +311,6 @@
 				8FE9C4F71ED3DF3F003DA221 /* BaseVC.h */,
 				8FE9C4F81ED3DF3F003DA221 /* BaseVC.m */,
 				8FE9C5261ED42C9B003DA221 /* layer */,
-				8FE9C5281ED42CC9003DA221 /* Zample20Controller.h */,
-				8FE9C5291ED42CC9003DA221 /* Zample20Controller.m */,
 			);
 			name = ZampleLayer;
 			path = Zample;
@@ -314,6 +321,10 @@
 			children = (
 				8FD33A661ECC2F0700BC488B /* HomeCell.h */,
 				8FD33A671ECC2F0700BC488B /* HomeCell.m */,
+				8F25F9241EE68FD20052A21D /* DrawView.h */,
+				8F25F9251EE68FD20052A21D /* DrawView.m */,
+				8F25F9271EE6924C0052A21D /* DrawShapelayerView.h */,
+				8F25F9281EE6924C0052A21D /* DrawShapelayerView.m */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -386,6 +397,10 @@
 				8FE9C5131ED41E5D003DA221 /* Zample18Controller.m */,
 				8FE9C5211ED42A50003DA221 /* Zample19Controller.h */,
 				8FE9C5221ED42A50003DA221 /* Zample19Controller.m */,
+				8FE9C5281ED42CC9003DA221 /* Zample20Controller.h */,
+				8FE9C5291ED42CC9003DA221 /* Zample20Controller.m */,
+				8F25F9211EE68F960052A21D /* Zample21Controller.h */,
+				8F25F9221EE68F960052A21D /* Zample21Controller.m */,
 			);
 			name = layer;
 			sourceTree = "<group>";
@@ -539,6 +554,7 @@
 				8FD33A6C1ECC30D300BC488B /* Zample1Controller.m in Sources */,
 				8F5C09AF1ECD26A60061CDEF /* Zample3Controller.m in Sources */,
 				8F5C09A81ECD1EF20061CDEF /* View+MASAdditions.m in Sources */,
+				8F25F9291EE6924C0052A21D /* DrawShapelayerView.m in Sources */,
 				8FE9C5111ED4189E003DA221 /* Zample17Controller.m in Sources */,
 				8FE9C50B1ED40960003DA221 /* Zample16Controller.m in Sources */,
 				8F5C09A01ECD1EF20061CDEF /* MASCompositeConstraint.m in Sources */,
@@ -553,12 +569,14 @@
 				8FE9C5021ED4045F003DA221 /* Zample14Controller.m in Sources */,
 				8FE9C51D1ED422CF003DA221 /* AnimationViewController.m in Sources */,
 				8F5C09A61ECD1EF20061CDEF /* NSArray+MASAdditions.m in Sources */,
+				8F25F9231EE68F960052A21D /* Zample21Controller.m in Sources */,
 				8F5C09B81ECE88F30061CDEF /* Zample6Controller.m in Sources */,
 				8FE9C5051ED405FB003DA221 /* Zample15Controller.m in Sources */,
 				8F5C09A91ECD1EF20061CDEF /* ViewController+MASAdditions.m in Sources */,
 				8F5C09B21ECD3FC90061CDEF /* Zample4Controller.m in Sources */,
 				8F5C09A11ECD1EF20061CDEF /* MASConstraint.m in Sources */,
 				8FE9C5231ED42A50003DA221 /* Zample19Controller.m in Sources */,
+				8F25F9261EE68FD20052A21D /* DrawView.m in Sources */,
 				8FE9C5171ED4229A003DA221 /* LayerViewController.m in Sources */,
 				8F5C09AC1ECD23240061CDEF /* Zample2Controller.m in Sources */,
 				8FE9C4F91ED3DF3F003DA221 /* BaseVC.m in Sources */,
