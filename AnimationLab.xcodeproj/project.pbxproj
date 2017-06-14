@@ -30,6 +30,12 @@
 		8F5C09C11ECEE3000061CDEF /* Zample9Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09C01ECEE3000061CDEF /* Zample9Controller.m */; };
 		8F5C09CA1ED26CCA0061CDEF /* Zample10Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09C81ED26CCA0061CDEF /* Zample10Controller.m */; };
 		8F5C09CB1ED26CCA0061CDEF /* Zample10Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5C09C91ED26CCA0061CDEF /* Zample10Controller.xib */; };
+		8FBE48441EF10E2A005F0E74 /* ZA1CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE483A1EF10E2A005F0E74 /* ZA1CollectionViewCell.m */; };
+		8FBE48451EF10E2A005F0E74 /* ZA1CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FBE483B1EF10E2A005F0E74 /* ZA1CollectionViewCell.xib */; };
+		8FBE48461EF10E2A005F0E74 /* ZA1PositiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE483D1EF10E2A005F0E74 /* ZA1PositiveTransition.m */; };
+		8FBE48471EF10E2A005F0E74 /* ZA1ReverseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE483F1EF10E2A005F0E74 /* ZA1ReverseTransition.m */; };
+		8FBE48481EF10E2A005F0E74 /* ZA1SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48411EF10E2A005F0E74 /* ZA1SecondController.m */; };
+		8FBE48491EF10E2A005F0E74 /* ZA1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48431EF10E2A005F0E74 /* ZA1ViewController.m */; };
 		8FD33A351ECC2E6000BC488B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A341ECC2E6000BC488B /* main.m */; };
 		8FD33A381ECC2E6000BC488B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A371ECC2E6000BC488B /* AppDelegate.m */; };
 		8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A3A1ECC2E6000BC488B /* ViewController.m */; };
@@ -57,12 +63,6 @@
 		8FE9C5231ED42A50003DA221 /* Zample19Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5221ED42A50003DA221 /* Zample19Controller.m */; };
 		8FE9C5251ED42B14003DA221 /* test.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8FE9C5241ED42B14003DA221 /* test.mov */; };
 		8FE9C52A1ED42CC9003DA221 /* Zample20Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE9C5291ED42CC9003DA221 /* Zample20Controller.m */; };
-		8FFC6D551EF0C4F600F55173 /* ZA1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC6D541EF0C4F600F55173 /* ZA1ViewController.m */; };
-		8FFC6D591EF0C64D00F55173 /* ZA1SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC6D581EF0C64D00F55173 /* ZA1SecondController.m */; };
-		8FFC6D5D1EF0C6D600F55173 /* ZA1CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC6D5B1EF0C6D600F55173 /* ZA1CollectionViewCell.m */; };
-		8FFC6D5E1EF0C6D600F55173 /* ZA1CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FFC6D5C1EF0C6D600F55173 /* ZA1CollectionViewCell.xib */; };
-		8FFC6D631EF0DA2900F55173 /* ZA1PositiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC6D621EF0DA2900F55173 /* ZA1PositiveTransition.m */; };
-		8FFC6D661EF0E3E700F55173 /* ZA1ReverseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFC6D651EF0E3E700F55173 /* ZA1ReverseTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,6 +133,17 @@
 		8F5C09C71ED26CCA0061CDEF /* Zample10Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample10Controller.h; sourceTree = "<group>"; };
 		8F5C09C81ED26CCA0061CDEF /* Zample10Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample10Controller.m; sourceTree = "<group>"; };
 		8F5C09C91ED26CCA0061CDEF /* Zample10Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Zample10Controller.xib; sourceTree = "<group>"; };
+		8FBE48391EF10E2A005F0E74 /* ZA1CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1CollectionViewCell.h; sourceTree = "<group>"; };
+		8FBE483A1EF10E2A005F0E74 /* ZA1CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1CollectionViewCell.m; sourceTree = "<group>"; };
+		8FBE483B1EF10E2A005F0E74 /* ZA1CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZA1CollectionViewCell.xib; sourceTree = "<group>"; };
+		8FBE483C1EF10E2A005F0E74 /* ZA1PositiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1PositiveTransition.h; sourceTree = "<group>"; };
+		8FBE483D1EF10E2A005F0E74 /* ZA1PositiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1PositiveTransition.m; sourceTree = "<group>"; };
+		8FBE483E1EF10E2A005F0E74 /* ZA1ReverseTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1ReverseTransition.h; sourceTree = "<group>"; };
+		8FBE483F1EF10E2A005F0E74 /* ZA1ReverseTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1ReverseTransition.m; sourceTree = "<group>"; };
+		8FBE48401EF10E2A005F0E74 /* ZA1SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1SecondController.h; sourceTree = "<group>"; };
+		8FBE48411EF10E2A005F0E74 /* ZA1SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1SecondController.m; sourceTree = "<group>"; };
+		8FBE48421EF10E2A005F0E74 /* ZA1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1ViewController.h; sourceTree = "<group>"; };
+		8FBE48431EF10E2A005F0E74 /* ZA1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1ViewController.m; sourceTree = "<group>"; };
 		8FD33A301ECC2E6000BC488B /* AnimationLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD33A341ECC2E6000BC488B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FD33A361ECC2E6000BC488B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -186,17 +197,6 @@
 		8FE9C5241ED42B14003DA221 /* test.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.mov; sourceTree = "<group>"; };
 		8FE9C5281ED42CC9003DA221 /* Zample20Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample20Controller.h; sourceTree = "<group>"; };
 		8FE9C5291ED42CC9003DA221 /* Zample20Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample20Controller.m; sourceTree = "<group>"; };
-		8FFC6D531EF0C4F600F55173 /* ZA1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1ViewController.h; sourceTree = "<group>"; };
-		8FFC6D541EF0C4F600F55173 /* ZA1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1ViewController.m; sourceTree = "<group>"; };
-		8FFC6D571EF0C64D00F55173 /* ZA1SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1SecondController.h; sourceTree = "<group>"; };
-		8FFC6D581EF0C64D00F55173 /* ZA1SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1SecondController.m; sourceTree = "<group>"; };
-		8FFC6D5A1EF0C6D600F55173 /* ZA1CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1CollectionViewCell.h; sourceTree = "<group>"; };
-		8FFC6D5B1EF0C6D600F55173 /* ZA1CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1CollectionViewCell.m; sourceTree = "<group>"; };
-		8FFC6D5C1EF0C6D600F55173 /* ZA1CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZA1CollectionViewCell.xib; sourceTree = "<group>"; };
-		8FFC6D611EF0DA2900F55173 /* ZA1PositiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1PositiveTransition.h; sourceTree = "<group>"; };
-		8FFC6D621EF0DA2900F55173 /* ZA1PositiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1PositiveTransition.m; sourceTree = "<group>"; };
-		8FFC6D641EF0E3E700F55173 /* ZA1ReverseTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1ReverseTransition.h; sourceTree = "<group>"; };
-		8FFC6D651EF0E3E700F55173 /* ZA1ReverseTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1ReverseTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +254,24 @@
 				8F5C099F1ECD1EF20061CDEF /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8FBE48391EF10E2A005F0E74 /* ZA1CollectionViewCell.h */,
+				8FBE483A1EF10E2A005F0E74 /* ZA1CollectionViewCell.m */,
+				8FBE483B1EF10E2A005F0E74 /* ZA1CollectionViewCell.xib */,
+				8FBE483C1EF10E2A005F0E74 /* ZA1PositiveTransition.h */,
+				8FBE483D1EF10E2A005F0E74 /* ZA1PositiveTransition.m */,
+				8FBE483E1EF10E2A005F0E74 /* ZA1ReverseTransition.h */,
+				8FBE483F1EF10E2A005F0E74 /* ZA1ReverseTransition.m */,
+				8FBE48401EF10E2A005F0E74 /* ZA1SecondController.h */,
+				8FBE48411EF10E2A005F0E74 /* ZA1SecondController.m */,
+				8FBE48421EF10E2A005F0E74 /* ZA1ViewController.h */,
+				8FBE48431EF10E2A005F0E74 /* ZA1ViewController.m */,
+			);
+			path = za1_transition_navigationDelegate;
 			sourceTree = "<group>";
 		};
 		8FD33A271ECC2E6000BC488B = {
@@ -426,27 +444,9 @@
 		8FFC6D521EF0C41400F55173 /* ZampleAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				8FFC6D561EF0C5E300F55173 /* za1-collection-transition */,
+				8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */,
 			);
 			path = ZampleAnimation;
-			sourceTree = "<group>";
-		};
-		8FFC6D561EF0C5E300F55173 /* za1-collection-transition */ = {
-			isa = PBXGroup;
-			children = (
-				8FFC6D531EF0C4F600F55173 /* ZA1ViewController.h */,
-				8FFC6D541EF0C4F600F55173 /* ZA1ViewController.m */,
-				8FFC6D611EF0DA2900F55173 /* ZA1PositiveTransition.h */,
-				8FFC6D621EF0DA2900F55173 /* ZA1PositiveTransition.m */,
-				8FFC6D5A1EF0C6D600F55173 /* ZA1CollectionViewCell.h */,
-				8FFC6D5B1EF0C6D600F55173 /* ZA1CollectionViewCell.m */,
-				8FFC6D5C1EF0C6D600F55173 /* ZA1CollectionViewCell.xib */,
-				8FFC6D571EF0C64D00F55173 /* ZA1SecondController.h */,
-				8FFC6D581EF0C64D00F55173 /* ZA1SecondController.m */,
-				8FFC6D641EF0E3E700F55173 /* ZA1ReverseTransition.h */,
-				8FFC6D651EF0E3E700F55173 /* ZA1ReverseTransition.m */,
-			);
-			name = "za1-collection-transition";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -561,7 +561,7 @@
 				8F5C09CB1ED26CCA0061CDEF /* Zample10Controller.xib in Resources */,
 				8FE9C5251ED42B14003DA221 /* test.mov in Resources */,
 				8FD33A431ECC2E6000BC488B /* LaunchScreen.storyboard in Resources */,
-				8FFC6D5E1EF0C6D600F55173 /* ZA1CollectionViewCell.xib in Resources */,
+				8FBE48451EF10E2A005F0E74 /* ZA1CollectionViewCell.xib in Resources */,
 				8FD33A401ECC2E6000BC488B /* Assets.xcassets in Resources */,
 				8FD33A3E1ECC2E6000BC488B /* Main.storyboard in Resources */,
 			);
@@ -596,12 +596,14 @@
 				8FE9C4FC1ED3FF82003DA221 /* LayerLabel.m in Sources */,
 				8FD33A681ECC2F0700BC488B /* HomeCell.m in Sources */,
 				8F5C09CA1ED26CCA0061CDEF /* Zample10Controller.m in Sources */,
-				8FFC6D631EF0DA2900F55173 /* ZA1PositiveTransition.m in Sources */,
+				8FBE48471EF10E2A005F0E74 /* ZA1ReverseTransition.m in Sources */,
+				8FBE48491EF10E2A005F0E74 /* ZA1ViewController.m in Sources */,
 				8FD33A6C1ECC30D300BC488B /* Zample1Controller.m in Sources */,
 				8F5C09AF1ECD26A60061CDEF /* Zample3Controller.m in Sources */,
 				8F5C09A81ECD1EF20061CDEF /* View+MASAdditions.m in Sources */,
 				8F25F9291EE6924C0052A21D /* DrawShapelayerView.m in Sources */,
 				8FE9C5111ED4189E003DA221 /* Zample17Controller.m in Sources */,
+				8FBE48461EF10E2A005F0E74 /* ZA1PositiveTransition.m in Sources */,
 				8FE9C50B1ED40960003DA221 /* Zample16Controller.m in Sources */,
 				8F5C09A01ECD1EF20061CDEF /* MASCompositeConstraint.m in Sources */,
 				8F5C09A41ECD1EF20061CDEF /* MASViewAttribute.m in Sources */,
@@ -611,7 +613,6 @@
 				8FE9C4F21ED3DBEB003DA221 /* Zample11Controller.m in Sources */,
 				8F5C09A21ECD1EF20061CDEF /* MASConstraintMaker.m in Sources */,
 				8FE9C5081ED407A2003DA221 /* ReflectionView.m in Sources */,
-				8FFC6D591EF0C64D00F55173 /* ZA1SecondController.m in Sources */,
 				8FE9C50E1ED40DB5003DA221 /* ScrollView.m in Sources */,
 				8FE9C5021ED4045F003DA221 /* Zample14Controller.m in Sources */,
 				8FE9C51D1ED422CF003DA221 /* AnimationViewController.m in Sources */,
@@ -619,17 +620,16 @@
 				8F25F9231EE68F960052A21D /* Zample21Controller.m in Sources */,
 				8F5C09B81ECE88F30061CDEF /* Zample6Controller.m in Sources */,
 				8FE9C5051ED405FB003DA221 /* Zample15Controller.m in Sources */,
-				8FFC6D551EF0C4F600F55173 /* ZA1ViewController.m in Sources */,
 				8F5C09A91ECD1EF20061CDEF /* ViewController+MASAdditions.m in Sources */,
 				8F5C09B21ECD3FC90061CDEF /* Zample4Controller.m in Sources */,
-				8FFC6D5D1EF0C6D600F55173 /* ZA1CollectionViewCell.m in Sources */,
+				8FBE48481EF10E2A005F0E74 /* ZA1SecondController.m in Sources */,
 				8F5C09A11ECD1EF20061CDEF /* MASConstraint.m in Sources */,
-				8FFC6D661EF0E3E700F55173 /* ZA1ReverseTransition.m in Sources */,
 				8FE9C5231ED42A50003DA221 /* Zample19Controller.m in Sources */,
 				8F25F9261EE68FD20052A21D /* DrawView.m in Sources */,
 				8FE9C5171ED4229A003DA221 /* LayerViewController.m in Sources */,
 				8F5C09AC1ECD23240061CDEF /* Zample2Controller.m in Sources */,
 				8FE9C4F91ED3DF3F003DA221 /* BaseVC.m in Sources */,
+				8FBE48441EF10E2A005F0E74 /* ZA1CollectionViewCell.m in Sources */,
 				8F5C09BE1ECEE0140061CDEF /* Zample8Controller.m in Sources */,
 				8F5C09A31ECD1EF20061CDEF /* MASLayoutConstraint.m in Sources */,
 				8FE9C4F61ED3DF11003DA221 /* Zample12Controller.m in Sources */,

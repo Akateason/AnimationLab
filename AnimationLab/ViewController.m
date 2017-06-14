@@ -33,7 +33,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     HomeCell *cell = [tableView dequeueReusableCellWithIdentifier:@"HomeCell"] ;
-    cell.textLabel.text = !indexPath.row ? @"CoreAnimation" : @"animation demo" ;
+    cell.textLabel.text = !indexPath.row ? @"CoreAnimation\nCALayer" : @"animation\ndemo" ;
+    cell.textLabel.numberOfLines = 0 ;
     return cell ;
 }
 
