@@ -36,6 +36,12 @@
 		8FBE48471EF10E2A005F0E74 /* ZA1ReverseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE483F1EF10E2A005F0E74 /* ZA1ReverseTransition.m */; };
 		8FBE48481EF10E2A005F0E74 /* ZA1SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48411EF10E2A005F0E74 /* ZA1SecondController.m */; };
 		8FBE48491EF10E2A005F0E74 /* ZA1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48431EF10E2A005F0E74 /* ZA1ViewController.m */; };
+		8FBE484D1EF110B5005F0E74 /* ZA2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE484C1EF110B5005F0E74 /* ZA2ViewController.m */; };
+		8FBE48501EF111EF005F0E74 /* ZA2SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE484F1EF111EF005F0E74 /* ZA2SecViewController.m */; };
+		8FBE48531EF11813005F0E74 /* ZA2RotationPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48521EF11813005F0E74 /* ZA2RotationPresentAnimation.m */; };
+		8FBE48591EF11FAF005F0E74 /* ZA2RotationDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48581EF11FAF005F0E74 /* ZA2RotationDismissAnimation.m */; };
+		8FBE485D1EF12F05005F0E74 /* ZA3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE485C1EF12F05005F0E74 /* ZA3ViewController.m */; };
+		8FBE48601EF12F1F005F0E74 /* ZA3SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE485F1EF12F1F005F0E74 /* ZA3SecViewController.m */; };
 		8FD33A351ECC2E6000BC488B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A341ECC2E6000BC488B /* main.m */; };
 		8FD33A381ECC2E6000BC488B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A371ECC2E6000BC488B /* AppDelegate.m */; };
 		8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A3A1ECC2E6000BC488B /* ViewController.m */; };
@@ -144,6 +150,18 @@
 		8FBE48411EF10E2A005F0E74 /* ZA1SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1SecondController.m; sourceTree = "<group>"; };
 		8FBE48421EF10E2A005F0E74 /* ZA1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA1ViewController.h; sourceTree = "<group>"; };
 		8FBE48431EF10E2A005F0E74 /* ZA1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA1ViewController.m; sourceTree = "<group>"; };
+		8FBE484B1EF110B5005F0E74 /* ZA2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA2ViewController.h; sourceTree = "<group>"; };
+		8FBE484C1EF110B5005F0E74 /* ZA2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA2ViewController.m; sourceTree = "<group>"; };
+		8FBE484E1EF111EF005F0E74 /* ZA2SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA2SecViewController.h; sourceTree = "<group>"; };
+		8FBE484F1EF111EF005F0E74 /* ZA2SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA2SecViewController.m; sourceTree = "<group>"; };
+		8FBE48511EF11813005F0E74 /* ZA2RotationPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA2RotationPresentAnimation.h; sourceTree = "<group>"; };
+		8FBE48521EF11813005F0E74 /* ZA2RotationPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA2RotationPresentAnimation.m; sourceTree = "<group>"; };
+		8FBE48571EF11FAF005F0E74 /* ZA2RotationDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA2RotationDismissAnimation.h; sourceTree = "<group>"; };
+		8FBE48581EF11FAF005F0E74 /* ZA2RotationDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA2RotationDismissAnimation.m; sourceTree = "<group>"; };
+		8FBE485B1EF12F05005F0E74 /* ZA3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA3ViewController.h; sourceTree = "<group>"; };
+		8FBE485C1EF12F05005F0E74 /* ZA3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA3ViewController.m; sourceTree = "<group>"; };
+		8FBE485E1EF12F1F005F0E74 /* ZA3SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA3SecViewController.h; sourceTree = "<group>"; };
+		8FBE485F1EF12F1F005F0E74 /* ZA3SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA3SecViewController.m; sourceTree = "<group>"; };
 		8FD33A301ECC2E6000BC488B /* AnimationLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD33A341ECC2E6000BC488B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FD33A361ECC2E6000BC488B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -272,6 +290,32 @@
 				8FBE48431EF10E2A005F0E74 /* ZA1ViewController.m */,
 			);
 			path = za1_transition_navigationDelegate;
+			sourceTree = "<group>";
+		};
+		8FBE484A1EF1109A005F0E74 /* za2_transition_present */ = {
+			isa = PBXGroup;
+			children = (
+				8FBE484B1EF110B5005F0E74 /* ZA2ViewController.h */,
+				8FBE484C1EF110B5005F0E74 /* ZA2ViewController.m */,
+				8FBE48511EF11813005F0E74 /* ZA2RotationPresentAnimation.h */,
+				8FBE48521EF11813005F0E74 /* ZA2RotationPresentAnimation.m */,
+				8FBE48571EF11FAF005F0E74 /* ZA2RotationDismissAnimation.h */,
+				8FBE48581EF11FAF005F0E74 /* ZA2RotationDismissAnimation.m */,
+				8FBE484E1EF111EF005F0E74 /* ZA2SecViewController.h */,
+				8FBE484F1EF111EF005F0E74 /* ZA2SecViewController.m */,
+			);
+			path = za2_transition_present;
+			sourceTree = "<group>";
+		};
+		8FBE485A1EF12EE3005F0E74 /* za3_transition_circle */ = {
+			isa = PBXGroup;
+			children = (
+				8FBE485B1EF12F05005F0E74 /* ZA3ViewController.h */,
+				8FBE485C1EF12F05005F0E74 /* ZA3ViewController.m */,
+				8FBE485E1EF12F1F005F0E74 /* ZA3SecViewController.h */,
+				8FBE485F1EF12F1F005F0E74 /* ZA3SecViewController.m */,
+			);
+			path = za3_transition_circle;
 			sourceTree = "<group>";
 		};
 		8FD33A271ECC2E6000BC488B = {
@@ -444,7 +488,9 @@
 		8FFC6D521EF0C41400F55173 /* ZampleAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				8FBE485A1EF12EE3005F0E74 /* za3_transition_circle */,
 				8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */,
+				8FBE484A1EF1109A005F0E74 /* za2_transition_present */,
 			);
 			path = ZampleAnimation;
 			sourceTree = "<group>";
@@ -590,6 +636,7 @@
 			files = (
 				8F5C09A71ECD1EF20061CDEF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */,
+				8FBE48591EF11FAF005F0E74 /* ZA2RotationDismissAnimation.m in Sources */,
 				8F5C09A51ECD1EF20061CDEF /* MASViewConstraint.m in Sources */,
 				8FE9C4FF1ED4018E003DA221 /* Zample13Controller.m in Sources */,
 				8FD33A381ECC2E6000BC488B /* AppDelegate.m in Sources */,
@@ -600,6 +647,7 @@
 				8FBE48491EF10E2A005F0E74 /* ZA1ViewController.m in Sources */,
 				8FD33A6C1ECC30D300BC488B /* Zample1Controller.m in Sources */,
 				8F5C09AF1ECD26A60061CDEF /* Zample3Controller.m in Sources */,
+				8FBE48601EF12F1F005F0E74 /* ZA3SecViewController.m in Sources */,
 				8F5C09A81ECD1EF20061CDEF /* View+MASAdditions.m in Sources */,
 				8F25F9291EE6924C0052A21D /* DrawShapelayerView.m in Sources */,
 				8FE9C5111ED4189E003DA221 /* Zample17Controller.m in Sources */,
@@ -615,9 +663,12 @@
 				8FE9C5081ED407A2003DA221 /* ReflectionView.m in Sources */,
 				8FE9C50E1ED40DB5003DA221 /* ScrollView.m in Sources */,
 				8FE9C5021ED4045F003DA221 /* Zample14Controller.m in Sources */,
+				8FBE484D1EF110B5005F0E74 /* ZA2ViewController.m in Sources */,
 				8FE9C51D1ED422CF003DA221 /* AnimationViewController.m in Sources */,
+				8FBE48531EF11813005F0E74 /* ZA2RotationPresentAnimation.m in Sources */,
 				8F5C09A61ECD1EF20061CDEF /* NSArray+MASAdditions.m in Sources */,
 				8F25F9231EE68F960052A21D /* Zample21Controller.m in Sources */,
+				8FBE485D1EF12F05005F0E74 /* ZA3ViewController.m in Sources */,
 				8F5C09B81ECE88F30061CDEF /* Zample6Controller.m in Sources */,
 				8FE9C5051ED405FB003DA221 /* Zample15Controller.m in Sources */,
 				8F5C09A91ECD1EF20061CDEF /* ViewController+MASAdditions.m in Sources */,
@@ -629,6 +680,7 @@
 				8FE9C5171ED4229A003DA221 /* LayerViewController.m in Sources */,
 				8F5C09AC1ECD23240061CDEF /* Zample2Controller.m in Sources */,
 				8FE9C4F91ED3DF3F003DA221 /* BaseVC.m in Sources */,
+				8FBE48501EF111EF005F0E74 /* ZA2SecViewController.m in Sources */,
 				8FBE48441EF10E2A005F0E74 /* ZA1CollectionViewCell.m in Sources */,
 				8F5C09BE1ECEE0140061CDEF /* Zample8Controller.m in Sources */,
 				8F5C09A31ECD1EF20061CDEF /* MASLayoutConstraint.m in Sources */,

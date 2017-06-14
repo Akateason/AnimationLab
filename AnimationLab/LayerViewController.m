@@ -12,8 +12,7 @@
 
 
 @interface LayerViewController () <UITableViewDataSource,UITableViewDelegate>
-@property (weak, nonatomic) IBOutlet UITableView *table;
-
+@property (weak, nonatomic) IBOutlet UITableView *table ;
 @end
 
 @implementation LayerViewController
