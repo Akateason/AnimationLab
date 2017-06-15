@@ -42,6 +42,8 @@
 		8FBE48591EF11FAF005F0E74 /* ZA2RotationDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48581EF11FAF005F0E74 /* ZA2RotationDismissAnimation.m */; };
 		8FBE485D1EF12F05005F0E74 /* ZA3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE485C1EF12F05005F0E74 /* ZA3ViewController.m */; };
 		8FBE48601EF12F1F005F0E74 /* ZA3SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE485F1EF12F1F005F0E74 /* ZA3SecViewController.m */; };
+		8FBE486A1EF21349005F0E74 /* PingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48691EF21349005F0E74 /* PingTransition.m */; };
+		8FBE48741EF22F51005F0E74 /* PingReverseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48731EF22F51005F0E74 /* PingReverseTransition.m */; };
 		8FD33A351ECC2E6000BC488B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A341ECC2E6000BC488B /* main.m */; };
 		8FD33A381ECC2E6000BC488B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A371ECC2E6000BC488B /* AppDelegate.m */; };
 		8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A3A1ECC2E6000BC488B /* ViewController.m */; };
@@ -162,6 +164,10 @@
 		8FBE485C1EF12F05005F0E74 /* ZA3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA3ViewController.m; sourceTree = "<group>"; };
 		8FBE485E1EF12F1F005F0E74 /* ZA3SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA3SecViewController.h; sourceTree = "<group>"; };
 		8FBE485F1EF12F1F005F0E74 /* ZA3SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA3SecViewController.m; sourceTree = "<group>"; };
+		8FBE48681EF21349005F0E74 /* PingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingTransition.h; sourceTree = "<group>"; };
+		8FBE48691EF21349005F0E74 /* PingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransition.m; sourceTree = "<group>"; };
+		8FBE48721EF22F51005F0E74 /* PingReverseTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingReverseTransition.h; sourceTree = "<group>"; };
+		8FBE48731EF22F51005F0E74 /* PingReverseTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingReverseTransition.m; sourceTree = "<group>"; };
 		8FD33A301ECC2E6000BC488B /* AnimationLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD33A341ECC2E6000BC488B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FD33A361ECC2E6000BC488B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -312,6 +318,10 @@
 			children = (
 				8FBE485B1EF12F05005F0E74 /* ZA3ViewController.h */,
 				8FBE485C1EF12F05005F0E74 /* ZA3ViewController.m */,
+				8FBE48681EF21349005F0E74 /* PingTransition.h */,
+				8FBE48691EF21349005F0E74 /* PingTransition.m */,
+				8FBE48721EF22F51005F0E74 /* PingReverseTransition.h */,
+				8FBE48731EF22F51005F0E74 /* PingReverseTransition.m */,
 				8FBE485E1EF12F1F005F0E74 /* ZA3SecViewController.h */,
 				8FBE485F1EF12F1F005F0E74 /* ZA3SecViewController.m */,
 			);
@@ -635,11 +645,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F5C09A71ECD1EF20061CDEF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				8FBE486A1EF21349005F0E74 /* PingTransition.m in Sources */,
 				8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */,
 				8FBE48591EF11FAF005F0E74 /* ZA2RotationDismissAnimation.m in Sources */,
 				8F5C09A51ECD1EF20061CDEF /* MASViewConstraint.m in Sources */,
 				8FE9C4FF1ED4018E003DA221 /* Zample13Controller.m in Sources */,
 				8FD33A381ECC2E6000BC488B /* AppDelegate.m in Sources */,
+				8FBE48741EF22F51005F0E74 /* PingReverseTransition.m in Sources */,
 				8FE9C4FC1ED3FF82003DA221 /* LayerLabel.m in Sources */,
 				8FD33A681ECC2F0700BC488B /* HomeCell.m in Sources */,
 				8F5C09CA1ED26CCA0061CDEF /* Zample10Controller.m in Sources */,

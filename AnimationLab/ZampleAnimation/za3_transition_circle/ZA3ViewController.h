@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ZA3ViewController : UIViewController
+@property (nonatomic,strong) UIButton *button ;
 
 @end

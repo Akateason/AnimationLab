@@ -25,6 +25,7 @@
 }
 
 
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 2 ;
@@ -64,4 +65,5 @@
 {
     [segue destinationViewController].title = sender ;
 }
+
 @end

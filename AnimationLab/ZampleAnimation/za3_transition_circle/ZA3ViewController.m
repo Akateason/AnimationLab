@@ -9,9 +9,11 @@
 #import "ZA3ViewController.h"
 #import "ZA3SecViewController.h"
 #import "Masonry.h"
+//#import "XTBubbleTransition.h"
+#import "PingTransition.h"
 
-@interface ZA3ViewController ()
-@property (nonatomic,strong) UIButton *button ;
+@interface ZA3ViewController () <UINavigationControllerDelegate>
+@property (nonatomic,strong) UIButton *backBt ;
 @end
 
 @implementation ZA3ViewController
@@ -20,6 +22,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.navigationController setNavigationBarHidden:YES animated:NO] ;
+    
     self.title = @"transition circle" ;
     self.edgesForExtendedLayout = UIRectEdgeNone ;
     self.view.backgroundColor = [UIColor cyanColor] ;
@@ -39,6 +43,27 @@
         }] ;
         bt ;
     }) ;
+    
+    self.backBt = ({
+        UIButton *bt = [UIButton new] ;
+        [bt setTitle:@"back" forState:0] ;
+        [bt addTarget:self
+               action:@selector(backAction:)
+     forControlEvents:UIControlEventTouchUpInside] ;
+        [self.view addSubview:bt] ;
+        [bt mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.size.mas_equalTo(CGSizeMake(100, 40)) ;
+            make.bottom.equalTo(self.view).offset(-30) ;
+            make.centerX.equalTo(self.view.mas_centerX) ;
+        }] ;
+
+        bt ;
+    }) ;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    self.navigationController.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -46,6 +71,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)backAction:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES] ;
+}
 
 - (void)btAction:(id)sender
 {
@@ -54,6 +83,20 @@
 }
 
 
+#pragma mark - UINavigationControllerDelegate
+- (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+                                   animationControllerForOperation:(UINavigationControllerOperation)operation
+                                                fromViewController:(UIViewController *)fromVC
+                                                  toViewController:(UIViewController *)toVC
+{
+    if (operation == UINavigationControllerOperationPush) {
+        PingTransition *ping = [PingTransition new];
+        return ping;
+    }
+    else {
+        return nil;
+    }
+}
 
 
 /*
