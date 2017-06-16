@@ -71,7 +71,7 @@
 - (void)edgePanGestureAction:(UIScreenEdgePanGestureRecognizer *)recognizer
 {
     //计算手指滑的物理距离（滑了多远，与起始位置无关）
-    CGFloat progress = [recognizer translationInView:self.view].x / (self.view.bounds.size.width * 1.0) ;
+    CGFloat progress = [recognizer translationInView:self.view].x / (self.view.bounds.size.width) ;
     progress = MIN(1.0, MAX(0.0, progress));//把这个百分比限制在0~1之间
     
     //当手势刚刚开始，我们创建一个 UIPercentDrivenInteractiveTransition 对象
@@ -88,13 +88,13 @@
     else if (recognizer.state == UIGestureRecognizerStateCancelled || recognizer.state == UIGestureRecognizerStateEnded)
     {
     //当手势结束，我们根据用户的手势进度来判断过渡是应该完成还是取消并相应的调用 finishInteractiveTransition 或者 cancelInteractiveTransition 方法.
-        if (progress > 0.5)
+        if (progress > 0.3)
         {
-            [self.percentDrivenTransition finishInteractiveTransition];
+            [self.percentDrivenTransition finishInteractiveTransition] ;
         }
         else
         {
-            [self.percentDrivenTransition cancelInteractiveTransition];
+            [self.percentDrivenTransition cancelInteractiveTransition] ;
         }
         self.percentDrivenTransition = nil;
     }

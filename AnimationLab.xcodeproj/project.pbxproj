@@ -44,6 +44,11 @@
 		8FBE48601EF12F1F005F0E74 /* ZA3SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE485F1EF12F1F005F0E74 /* ZA3SecViewController.m */; };
 		8FBE486A1EF21349005F0E74 /* PingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48691EF21349005F0E74 /* PingTransition.m */; };
 		8FBE48741EF22F51005F0E74 /* PingReverseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48731EF22F51005F0E74 /* PingReverseTransition.m */; };
+		8FBE48781EF26115005F0E74 /* ZA4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48771EF26115005F0E74 /* ZA4ViewController.m */; };
+		8FBE48B71EF36083005F0E74 /* ZA4SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48B61EF36083005F0E74 /* ZA4SecViewController.m */; };
+		8FBE48BA1EF360CE005F0E74 /* PushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48B91EF360CE005F0E74 /* PushTransition.m */; };
+		8FBE48BD1EF365FB005F0E74 /* PushReverseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48BC1EF365FB005F0E74 /* PushReverseTransition.m */; };
+		8FBE48C01EF3B317005F0E74 /* KYPopInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48BF1EF3B317005F0E74 /* KYPopInteractiveTransition.m */; };
 		8FD33A351ECC2E6000BC488B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A341ECC2E6000BC488B /* main.m */; };
 		8FD33A381ECC2E6000BC488B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A371ECC2E6000BC488B /* AppDelegate.m */; };
 		8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A3A1ECC2E6000BC488B /* ViewController.m */; };
@@ -168,6 +173,16 @@
 		8FBE48691EF21349005F0E74 /* PingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransition.m; sourceTree = "<group>"; };
 		8FBE48721EF22F51005F0E74 /* PingReverseTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingReverseTransition.h; sourceTree = "<group>"; };
 		8FBE48731EF22F51005F0E74 /* PingReverseTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingReverseTransition.m; sourceTree = "<group>"; };
+		8FBE48761EF26115005F0E74 /* ZA4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA4ViewController.h; sourceTree = "<group>"; };
+		8FBE48771EF26115005F0E74 /* ZA4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA4ViewController.m; sourceTree = "<group>"; };
+		8FBE48B51EF36083005F0E74 /* ZA4SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA4SecViewController.h; sourceTree = "<group>"; };
+		8FBE48B61EF36083005F0E74 /* ZA4SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA4SecViewController.m; sourceTree = "<group>"; };
+		8FBE48B81EF360CE005F0E74 /* PushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushTransition.h; sourceTree = "<group>"; };
+		8FBE48B91EF360CE005F0E74 /* PushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushTransition.m; sourceTree = "<group>"; };
+		8FBE48BB1EF365FB005F0E74 /* PushReverseTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushReverseTransition.h; sourceTree = "<group>"; };
+		8FBE48BC1EF365FB005F0E74 /* PushReverseTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushReverseTransition.m; sourceTree = "<group>"; };
+		8FBE48BE1EF3B317005F0E74 /* KYPopInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPopInteractiveTransition.h; sourceTree = "<group>"; };
+		8FBE48BF1EF3B317005F0E74 /* KYPopInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPopInteractiveTransition.m; sourceTree = "<group>"; };
 		8FD33A301ECC2E6000BC488B /* AnimationLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD33A341ECC2E6000BC488B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FD33A361ECC2E6000BC488B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -326,6 +341,23 @@
 				8FBE485F1EF12F1F005F0E74 /* ZA3SecViewController.m */,
 			);
 			path = za3_transition_circle;
+			sourceTree = "<group>";
+		};
+		8FBE48751EF26106005F0E74 /* za4_transition_m34 */ = {
+			isa = PBXGroup;
+			children = (
+				8FBE48761EF26115005F0E74 /* ZA4ViewController.h */,
+				8FBE48771EF26115005F0E74 /* ZA4ViewController.m */,
+				8FBE48B81EF360CE005F0E74 /* PushTransition.h */,
+				8FBE48B91EF360CE005F0E74 /* PushTransition.m */,
+				8FBE48BB1EF365FB005F0E74 /* PushReverseTransition.h */,
+				8FBE48BC1EF365FB005F0E74 /* PushReverseTransition.m */,
+				8FBE48B51EF36083005F0E74 /* ZA4SecViewController.h */,
+				8FBE48B61EF36083005F0E74 /* ZA4SecViewController.m */,
+				8FBE48BE1EF3B317005F0E74 /* KYPopInteractiveTransition.h */,
+				8FBE48BF1EF3B317005F0E74 /* KYPopInteractiveTransition.m */,
+			);
+			path = za4_transition_m34;
 			sourceTree = "<group>";
 		};
 		8FD33A271ECC2E6000BC488B = {
@@ -498,9 +530,10 @@
 		8FFC6D521EF0C41400F55173 /* ZampleAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				8FBE485A1EF12EE3005F0E74 /* za3_transition_circle */,
+				8FBE48751EF26106005F0E74 /* za4_transition_m34 */,
 				8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */,
 				8FBE484A1EF1109A005F0E74 /* za2_transition_present */,
+				8FBE485A1EF12EE3005F0E74 /* za3_transition_circle */,
 			);
 			path = ZampleAnimation;
 			sourceTree = "<group>";
@@ -654,11 +687,13 @@
 				8FBE48741EF22F51005F0E74 /* PingReverseTransition.m in Sources */,
 				8FE9C4FC1ED3FF82003DA221 /* LayerLabel.m in Sources */,
 				8FD33A681ECC2F0700BC488B /* HomeCell.m in Sources */,
+				8FBE48781EF26115005F0E74 /* ZA4ViewController.m in Sources */,
 				8F5C09CA1ED26CCA0061CDEF /* Zample10Controller.m in Sources */,
 				8FBE48471EF10E2A005F0E74 /* ZA1ReverseTransition.m in Sources */,
 				8FBE48491EF10E2A005F0E74 /* ZA1ViewController.m in Sources */,
 				8FD33A6C1ECC30D300BC488B /* Zample1Controller.m in Sources */,
 				8F5C09AF1ECD26A60061CDEF /* Zample3Controller.m in Sources */,
+				8FBE48B71EF36083005F0E74 /* ZA4SecViewController.m in Sources */,
 				8FBE48601EF12F1F005F0E74 /* ZA3SecViewController.m in Sources */,
 				8F5C09A81ECD1EF20061CDEF /* View+MASAdditions.m in Sources */,
 				8F25F9291EE6924C0052A21D /* DrawShapelayerView.m in Sources */,
@@ -676,6 +711,7 @@
 				8FE9C50E1ED40DB5003DA221 /* ScrollView.m in Sources */,
 				8FE9C5021ED4045F003DA221 /* Zample14Controller.m in Sources */,
 				8FBE484D1EF110B5005F0E74 /* ZA2ViewController.m in Sources */,
+				8FBE48C01EF3B317005F0E74 /* KYPopInteractiveTransition.m in Sources */,
 				8FE9C51D1ED422CF003DA221 /* AnimationViewController.m in Sources */,
 				8FBE48531EF11813005F0E74 /* ZA2RotationPresentAnimation.m in Sources */,
 				8F5C09A61ECD1EF20061CDEF /* NSArray+MASAdditions.m in Sources */,
@@ -699,7 +735,9 @@
 				8FE9C4F61ED3DF11003DA221 /* Zample12Controller.m in Sources */,
 				8FD33A351ECC2E6000BC488B /* main.m in Sources */,
 				8FE9C52A1ED42CC9003DA221 /* Zample20Controller.m in Sources */,
+				8FBE48BD1EF365FB005F0E74 /* PushReverseTransition.m in Sources */,
 				8F5C09C11ECEE3000061CDEF /* Zample9Controller.m in Sources */,
+				8FBE48BA1EF360CE005F0E74 /* PushTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
