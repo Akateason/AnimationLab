@@ -49,6 +49,10 @@
 		8FBE48BA1EF360CE005F0E74 /* PushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48B91EF360CE005F0E74 /* PushTransition.m */; };
 		8FBE48BD1EF365FB005F0E74 /* PushReverseTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48BC1EF365FB005F0E74 /* PushReverseTransition.m */; };
 		8FBE48C01EF3B317005F0E74 /* KYPopInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48BF1EF3B317005F0E74 /* KYPopInteractiveTransition.m */; };
+		8FBE48C41EF64879005F0E74 /* ZA5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48C31EF64879005F0E74 /* ZA5ViewController.m */; };
+		8FBE48C71EF64A9B005F0E74 /* ZA5SecController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48C61EF64A9B005F0E74 /* ZA5SecController.m */; };
+		8FBE48D01EF6583D005F0E74 /* Z5PresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48CF1EF6583D005F0E74 /* Z5PresentationController.m */; };
+		8FBE48D31EF6584F005F0E74 /* Z5Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FBE48D21EF6584F005F0E74 /* Z5Transition.m */; };
 		8FD33A351ECC2E6000BC488B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A341ECC2E6000BC488B /* main.m */; };
 		8FD33A381ECC2E6000BC488B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A371ECC2E6000BC488B /* AppDelegate.m */; };
 		8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD33A3A1ECC2E6000BC488B /* ViewController.m */; };
@@ -183,6 +187,14 @@
 		8FBE48BC1EF365FB005F0E74 /* PushReverseTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushReverseTransition.m; sourceTree = "<group>"; };
 		8FBE48BE1EF3B317005F0E74 /* KYPopInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPopInteractiveTransition.h; sourceTree = "<group>"; };
 		8FBE48BF1EF3B317005F0E74 /* KYPopInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPopInteractiveTransition.m; sourceTree = "<group>"; };
+		8FBE48C21EF64879005F0E74 /* ZA5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA5ViewController.h; sourceTree = "<group>"; };
+		8FBE48C31EF64879005F0E74 /* ZA5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA5ViewController.m; sourceTree = "<group>"; };
+		8FBE48C51EF64A9B005F0E74 /* ZA5SecController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA5SecController.h; sourceTree = "<group>"; };
+		8FBE48C61EF64A9B005F0E74 /* ZA5SecController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA5SecController.m; sourceTree = "<group>"; };
+		8FBE48CE1EF6583D005F0E74 /* Z5PresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Z5PresentationController.h; sourceTree = "<group>"; };
+		8FBE48CF1EF6583D005F0E74 /* Z5PresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Z5PresentationController.m; sourceTree = "<group>"; };
+		8FBE48D11EF6584F005F0E74 /* Z5Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Z5Transition.h; sourceTree = "<group>"; };
+		8FBE48D21EF6584F005F0E74 /* Z5Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Z5Transition.m; sourceTree = "<group>"; };
 		8FD33A301ECC2E6000BC488B /* AnimationLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD33A341ECC2E6000BC488B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8FD33A361ECC2E6000BC488B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -360,6 +372,21 @@
 			path = za4_transition_m34;
 			sourceTree = "<group>";
 		};
+		8FBE48C11EF64869005F0E74 /* za5_ UIPresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				8FBE48C21EF64879005F0E74 /* ZA5ViewController.h */,
+				8FBE48C31EF64879005F0E74 /* ZA5ViewController.m */,
+				8FBE48C51EF64A9B005F0E74 /* ZA5SecController.h */,
+				8FBE48C61EF64A9B005F0E74 /* ZA5SecController.m */,
+				8FBE48CE1EF6583D005F0E74 /* Z5PresentationController.h */,
+				8FBE48CF1EF6583D005F0E74 /* Z5PresentationController.m */,
+				8FBE48D11EF6584F005F0E74 /* Z5Transition.h */,
+				8FBE48D21EF6584F005F0E74 /* Z5Transition.m */,
+			);
+			path = "za5_ UIPresentationController";
+			sourceTree = "<group>";
+		};
 		8FD33A271ECC2E6000BC488B = {
 			isa = PBXGroup;
 			children = (
@@ -530,10 +557,11 @@
 		8FFC6D521EF0C41400F55173 /* ZampleAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				8FBE48751EF26106005F0E74 /* za4_transition_m34 */,
+				8FBE48C11EF64869005F0E74 /* za5_ UIPresentationController */,
 				8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */,
 				8FBE484A1EF1109A005F0E74 /* za2_transition_present */,
 				8FBE485A1EF12EE3005F0E74 /* za3_transition_circle */,
+				8FBE48751EF26106005F0E74 /* za4_transition_m34 */,
 			);
 			path = ZampleAnimation;
 			sourceTree = "<group>";
@@ -711,7 +739,10 @@
 				8FE9C50E1ED40DB5003DA221 /* ScrollView.m in Sources */,
 				8FE9C5021ED4045F003DA221 /* Zample14Controller.m in Sources */,
 				8FBE484D1EF110B5005F0E74 /* ZA2ViewController.m in Sources */,
+				8FBE48D31EF6584F005F0E74 /* Z5Transition.m in Sources */,
 				8FBE48C01EF3B317005F0E74 /* KYPopInteractiveTransition.m in Sources */,
+				8FBE48C41EF64879005F0E74 /* ZA5ViewController.m in Sources */,
+				8FBE48D01EF6583D005F0E74 /* Z5PresentationController.m in Sources */,
 				8FE9C51D1ED422CF003DA221 /* AnimationViewController.m in Sources */,
 				8FBE48531EF11813005F0E74 /* ZA2RotationPresentAnimation.m in Sources */,
 				8F5C09A61ECD1EF20061CDEF /* NSArray+MASAdditions.m in Sources */,
@@ -733,6 +764,7 @@
 				8F5C09BE1ECEE0140061CDEF /* Zample8Controller.m in Sources */,
 				8F5C09A31ECD1EF20061CDEF /* MASLayoutConstraint.m in Sources */,
 				8FE9C4F61ED3DF11003DA221 /* Zample12Controller.m in Sources */,
+				8FBE48C71EF64A9B005F0E74 /* ZA5SecController.m in Sources */,
 				8FD33A351ECC2E6000BC488B /* main.m in Sources */,
 				8FE9C52A1ED42CC9003DA221 /* Zample20Controller.m in Sources */,
 				8FBE48BD1EF365FB005F0E74 /* PushReverseTransition.m in Sources */,
