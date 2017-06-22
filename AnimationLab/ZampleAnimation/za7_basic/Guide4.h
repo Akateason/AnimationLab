@@ -10,9 +10,8 @@
 
 @interface Guide4 : UIView
 
-@property (weak, nonatomic) IBOutlet UIImageView *img_logo;
-
-@property (weak, nonatomic) IBOutlet UILabel *lb_title;
+@property (weak, nonatomic) IBOutlet UIImageView *img_logo ;
+@property (weak, nonatomic) IBOutlet UILabel *lb_title ;
 
 - (void)startAnimate ;
 

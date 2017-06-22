@@ -82,9 +82,7 @@
         _lb_title1.alpha = 1.0f  ;
         
     } completion:^(BOOL finished) {
-        
         [self subTitles] ;
-        
     }] ;
 
     

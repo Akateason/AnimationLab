@@ -23,18 +23,13 @@
 - (void)awakeFromNib
 {
     [super awakeFromNib] ;
-    
     self.backgroundColor = [UIColor clearColor] ;
-    
 }
 
 
 - (void)startAnimate
 {
-    
 //    [_lb_title shine] ;
-    
-    
 }
 
 

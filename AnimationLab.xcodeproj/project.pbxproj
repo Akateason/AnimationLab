@@ -618,13 +618,13 @@
 		8FFC6D521EF0C41400F55173 /* ZampleAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				8F37C0181EFB677900EE713F /* za7_basic */,
 				8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */,
 				8FBE484A1EF1109A005F0E74 /* za2_transition_present */,
 				8FBE485A1EF12EE3005F0E74 /* za3_transition_circle */,
 				8FBE48751EF26106005F0E74 /* za4_transition_m34 */,
 				8FBE48C11EF64869005F0E74 /* za5_ UIPresentationController */,
 				8F37C0141EFB643200EE713F /* za6_emitter */,
+				8F37C0181EFB677900EE713F /* za7_basic */,
 			);
 			path = ZampleAnimation;
 			sourceTree = "<group>";
