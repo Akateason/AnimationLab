@@ -10,6 +10,17 @@
 		8F25F9231EE68F960052A21D /* Zample21Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25F9221EE68F960052A21D /* Zample21Controller.m */; };
 		8F25F9261EE68FD20052A21D /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25F9251EE68FD20052A21D /* DrawView.m */; };
 		8F25F9291EE6924C0052A21D /* DrawShapelayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25F9281EE6924C0052A21D /* DrawShapelayerView.m */; };
+		8F37C0171EFB644600EE713F /* ZA6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0161EFB644600EE713F /* ZA6ViewController.m */; };
+		8F37C01B1EFB678500EE713F /* ZA7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C01A1EFB678500EE713F /* ZA7ViewController.m */; };
+		8F37C02A1EFB67B100EE713F /* StartMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C01D1EFB67B100EE713F /* StartMoveView.m */; };
+		8F37C02B1EFB67B100EE713F /* Guide1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C01F1EFB67B100EE713F /* Guide1.m */; };
+		8F37C02C1EFB67B100EE713F /* Guide1View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F37C0201EFB67B100EE713F /* Guide1View.xib */; };
+		8F37C02D1EFB67B100EE713F /* Guide2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0221EFB67B100EE713F /* Guide2.m */; };
+		8F37C02E1EFB67B100EE713F /* Guide2View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F37C0231EFB67B100EE713F /* Guide2View.xib */; };
+		8F37C02F1EFB67B100EE713F /* Guide3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0251EFB67B100EE713F /* Guide3.m */; };
+		8F37C0301EFB67B100EE713F /* Guide3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F37C0261EFB67B100EE713F /* Guide3View.xib */; };
+		8F37C0311EFB67B100EE713F /* Guide4.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0281EFB67B100EE713F /* Guide4.m */; };
+		8F37C0321EFB67B100EE713F /* Guide4View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F37C0291EFB67B100EE713F /* Guide4View.xib */; };
 		8F5C09A01ECD1EF20061CDEF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09881ECD1EF20061CDEF /* MASCompositeConstraint.m */; };
 		8F5C09A11ECD1EF20061CDEF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C098B1ECD1EF20061CDEF /* MASConstraint.m */; };
 		8F5C09A21ECD1EF20061CDEF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C098D1ECD1EF20061CDEF /* MASConstraintMaker.m */; };
@@ -106,6 +117,24 @@
 		8F25F9251EE68FD20052A21D /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		8F25F9271EE6924C0052A21D /* DrawShapelayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawShapelayerView.h; sourceTree = "<group>"; };
 		8F25F9281EE6924C0052A21D /* DrawShapelayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawShapelayerView.m; sourceTree = "<group>"; };
+		8F37C0151EFB644600EE713F /* ZA6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA6ViewController.h; sourceTree = "<group>"; };
+		8F37C0161EFB644600EE713F /* ZA6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA6ViewController.m; sourceTree = "<group>"; };
+		8F37C0191EFB678500EE713F /* ZA7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA7ViewController.h; sourceTree = "<group>"; };
+		8F37C01A1EFB678500EE713F /* ZA7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA7ViewController.m; sourceTree = "<group>"; };
+		8F37C01C1EFB67B100EE713F /* StartMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartMoveView.h; sourceTree = "<group>"; };
+		8F37C01D1EFB67B100EE713F /* StartMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartMoveView.m; sourceTree = "<group>"; };
+		8F37C01E1EFB67B100EE713F /* Guide1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guide1.h; sourceTree = "<group>"; };
+		8F37C01F1EFB67B100EE713F /* Guide1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guide1.m; sourceTree = "<group>"; };
+		8F37C0201EFB67B100EE713F /* Guide1View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Guide1View.xib; sourceTree = "<group>"; };
+		8F37C0211EFB67B100EE713F /* Guide2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guide2.h; sourceTree = "<group>"; };
+		8F37C0221EFB67B100EE713F /* Guide2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guide2.m; sourceTree = "<group>"; };
+		8F37C0231EFB67B100EE713F /* Guide2View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Guide2View.xib; sourceTree = "<group>"; };
+		8F37C0241EFB67B100EE713F /* Guide3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guide3.h; sourceTree = "<group>"; };
+		8F37C0251EFB67B100EE713F /* Guide3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guide3.m; sourceTree = "<group>"; };
+		8F37C0261EFB67B100EE713F /* Guide3View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Guide3View.xib; sourceTree = "<group>"; };
+		8F37C0271EFB67B100EE713F /* Guide4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guide4.h; sourceTree = "<group>"; };
+		8F37C0281EFB67B100EE713F /* Guide4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guide4.m; sourceTree = "<group>"; };
+		8F37C0291EFB67B100EE713F /* Guide4View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Guide4View.xib; sourceTree = "<group>"; };
 		8F5C09871ECD1EF20061CDEF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		8F5C09881ECD1EF20061CDEF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		8F5C09891ECD1EF20061CDEF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -275,6 +304,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F37C0141EFB643200EE713F /* za6_emitter */ = {
+			isa = PBXGroup;
+			children = (
+				8F37C0151EFB644600EE713F /* ZA6ViewController.h */,
+				8F37C0161EFB644600EE713F /* ZA6ViewController.m */,
+			);
+			path = za6_emitter;
+			sourceTree = "<group>";
+		};
+		8F37C0181EFB677900EE713F /* za7_basic */ = {
+			isa = PBXGroup;
+			children = (
+				8F37C0191EFB678500EE713F /* ZA7ViewController.h */,
+				8F37C01A1EFB678500EE713F /* ZA7ViewController.m */,
+				8F37C01C1EFB67B100EE713F /* StartMoveView.h */,
+				8F37C01D1EFB67B100EE713F /* StartMoveView.m */,
+				8F37C01E1EFB67B100EE713F /* Guide1.h */,
+				8F37C01F1EFB67B100EE713F /* Guide1.m */,
+				8F37C0201EFB67B100EE713F /* Guide1View.xib */,
+				8F37C0211EFB67B100EE713F /* Guide2.h */,
+				8F37C0221EFB67B100EE713F /* Guide2.m */,
+				8F37C0231EFB67B100EE713F /* Guide2View.xib */,
+				8F37C0241EFB67B100EE713F /* Guide3.h */,
+				8F37C0251EFB67B100EE713F /* Guide3.m */,
+				8F37C0261EFB67B100EE713F /* Guide3View.xib */,
+				8F37C0271EFB67B100EE713F /* Guide4.h */,
+				8F37C0281EFB67B100EE713F /* Guide4.m */,
+				8F37C0291EFB67B100EE713F /* Guide4View.xib */,
+			);
+			path = za7_basic;
+			sourceTree = "<group>";
+		};
 		8F5C09861ECD1EF20061CDEF /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -557,11 +618,13 @@
 		8FFC6D521EF0C41400F55173 /* ZampleAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				8FBE48C11EF64869005F0E74 /* za5_ UIPresentationController */,
+				8F37C0181EFB677900EE713F /* za7_basic */,
 				8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */,
 				8FBE484A1EF1109A005F0E74 /* za2_transition_present */,
 				8FBE485A1EF12EE3005F0E74 /* za3_transition_circle */,
 				8FBE48751EF26106005F0E74 /* za4_transition_m34 */,
+				8FBE48C11EF64869005F0E74 /* za5_ UIPresentationController */,
+				8F37C0141EFB643200EE713F /* za6_emitter */,
 			);
 			path = ZampleAnimation;
 			sourceTree = "<group>";
@@ -675,11 +738,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F37C0321EFB67B100EE713F /* Guide4View.xib in Resources */,
 				8F5C09CB1ED26CCA0061CDEF /* Zample10Controller.xib in Resources */,
+				8F37C0301EFB67B100EE713F /* Guide3View.xib in Resources */,
 				8FE9C5251ED42B14003DA221 /* test.mov in Resources */,
+				8F37C02E1EFB67B100EE713F /* Guide2View.xib in Resources */,
 				8FD33A431ECC2E6000BC488B /* LaunchScreen.storyboard in Resources */,
 				8FBE48451EF10E2A005F0E74 /* ZA1CollectionViewCell.xib in Resources */,
 				8FD33A401ECC2E6000BC488B /* Assets.xcassets in Resources */,
+				8F37C02C1EFB67B100EE713F /* Guide1View.xib in Resources */,
 				8FD33A3E1ECC2E6000BC488B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -705,6 +772,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F37C0171EFB644600EE713F /* ZA6ViewController.m in Sources */,
 				8F5C09A71ECD1EF20061CDEF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				8FBE486A1EF21349005F0E74 /* PingTransition.m in Sources */,
 				8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */,
@@ -721,7 +789,9 @@
 				8FBE48491EF10E2A005F0E74 /* ZA1ViewController.m in Sources */,
 				8FD33A6C1ECC30D300BC488B /* Zample1Controller.m in Sources */,
 				8F5C09AF1ECD26A60061CDEF /* Zample3Controller.m in Sources */,
+				8F37C02D1EFB67B100EE713F /* Guide2.m in Sources */,
 				8FBE48B71EF36083005F0E74 /* ZA4SecViewController.m in Sources */,
+				8F37C02F1EFB67B100EE713F /* Guide3.m in Sources */,
 				8FBE48601EF12F1F005F0E74 /* ZA3SecViewController.m in Sources */,
 				8F5C09A81ECD1EF20061CDEF /* View+MASAdditions.m in Sources */,
 				8F25F9291EE6924C0052A21D /* DrawShapelayerView.m in Sources */,
@@ -738,6 +808,9 @@
 				8FE9C5081ED407A2003DA221 /* ReflectionView.m in Sources */,
 				8FE9C50E1ED40DB5003DA221 /* ScrollView.m in Sources */,
 				8FE9C5021ED4045F003DA221 /* Zample14Controller.m in Sources */,
+				8F37C02A1EFB67B100EE713F /* StartMoveView.m in Sources */,
+				8F37C01B1EFB678500EE713F /* ZA7ViewController.m in Sources */,
+				8F37C02B1EFB67B100EE713F /* Guide1.m in Sources */,
 				8FBE484D1EF110B5005F0E74 /* ZA2ViewController.m in Sources */,
 				8FBE48D31EF6584F005F0E74 /* Z5Transition.m in Sources */,
 				8FBE48C01EF3B317005F0E74 /* KYPopInteractiveTransition.m in Sources */,
@@ -768,6 +841,7 @@
 				8FD33A351ECC2E6000BC488B /* main.m in Sources */,
 				8FE9C52A1ED42CC9003DA221 /* Zample20Controller.m in Sources */,
 				8FBE48BD1EF365FB005F0E74 /* PushReverseTransition.m in Sources */,
+				8F37C0311EFB67B100EE713F /* Guide4.m in Sources */,
 				8F5C09C11ECEE3000061CDEF /* Zample9Controller.m in Sources */,
 				8FBE48BA1EF360CE005F0E74 /* PushTransition.m in Sources */,
 			);

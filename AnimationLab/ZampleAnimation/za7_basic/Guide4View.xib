@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Guide4">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guide_bg_04" translatesAutoresizingMaskIntoConstraints="NO" id="UFh-EA-5AC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoJGB" translatesAutoresizingMaskIntoConstraints="NO" id="j9j-7b-Fhm">
+                    <rect key="frame" x="117" y="65" width="140" height="140"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="49U-o0-hx0"/>
+                        <constraint firstAttribute="width" constant="140" id="k0v-BC-WrC"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="海外正品直达" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbT-uz-zTw">
+                    <rect key="frame" x="89" y="205" width="196" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="196" id="njP-0t-1KU"/>
+                        <constraint firstAttribute="height" constant="25" id="z8G-ir-Dvp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.68945725879999997" green="0.90459941210000006" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JbT-uz-zTw" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4FV-tC-gme"/>
+                <constraint firstItem="j9j-7b-Fhm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9CP-yN-PS7"/>
+                <constraint firstItem="UFh-EA-5AC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="CDN-qV-Z1D"/>
+                <constraint firstAttribute="trailing" secondItem="UFh-EA-5AC" secondAttribute="trailing" id="E4D-lF-wCB"/>
+                <constraint firstAttribute="bottom" secondItem="UFh-EA-5AC" secondAttribute="bottom" id="QKh-J4-9p5"/>
+                <constraint firstItem="j9j-7b-Fhm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="65" id="gSZ-5E-E8C"/>
+                <constraint firstItem="JbT-uz-zTw" firstAttribute="top" secondItem="j9j-7b-Fhm" secondAttribute="bottom" id="rDW-8G-1hc"/>
+                <constraint firstItem="UFh-EA-5AC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uji-s7-GJd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <connections>
+                <outlet property="img_logo" destination="j9j-7b-Fhm" id="nPX-k6-Ycu"/>
+                <outlet property="lb_title" destination="JbT-uz-zTw" id="J4j-V3-MOp"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="guide_bg_04" width="640" height="960"/>
+        <image name="logoJGB" width="261" height="212"/>
+    </resources>
+</document>

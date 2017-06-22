@@ -15,13 +15,14 @@
 @property (nonatomic,strong) UILabel *titleLabel ;
 @property (nonatomic,strong) UIImageView *imageView ;
 @property (nonatomic,strong) UIButton *button ;
+@property (nonatomic,strong) UIButton *backButton ;
 @end
 
 @implementation ZA5ViewController
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+    [super viewDidLoad] ;
     // Do any additional setup after loading the view.
     [self.navigationController setNavigationBarHidden:YES animated:NO] ;
     self.view.backgroundColor = [UIColor whiteColor] ;
@@ -54,7 +55,7 @@
         }] ;
         imageView ;
     }) ;
-
+    
     self.button = ({
         UIButton *bt = [UIButton new] ;
         [bt setTitleColor:[UIColor blackColor] forState:0] ;
@@ -67,6 +68,22 @@
             make.size.mas_equalTo(CGSizeMake(140, 40)) ;
             make.centerX.equalTo(self.view.mas_centerX) ;
             make.bottom.equalTo(self.view) ;
+        }] ;
+        bt ;
+    }) ;
+    
+    self.backButton = ({
+        UIButton *bt = [UIButton new] ;
+        [bt setTitleColor:[UIColor blackColor] forState:0] ;
+        [bt setTitle:@"back" forState:0] ;
+        [bt addTarget:self
+               action:@selector(backAction:)
+     forControlEvents:UIControlEventTouchUpInside] ;
+        [self.view addSubview:bt] ;
+        [bt mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.size.mas_equalTo(CGSizeMake(140, 40)) ;
+            make.centerX.equalTo(self.view.mas_centerX) ;
+            make.bottom.equalTo(self.button.mas_top).offset(-20) ;
         }] ;
         bt ;
     }) ;
@@ -86,8 +103,10 @@
                      completion:^{}] ;
 }
 
-
-
+- (void)backAction:(id)sender
+{
+    [self.navigationController popViewControllerAnimated:YES] ;
+}
 
 
 
