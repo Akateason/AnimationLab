@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C180EF687558E0F2E6C2202 /* libPods-AnimationLab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2239B63C1EFDBED1E5150812 /* libPods-AnimationLab.a */; };
+		4368DA5300296C22A7D5E8FF /* libPods-AnimationLabUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 016618C0217F7D5669FF05E4 /* libPods-AnimationLabUITests.a */; };
+		683DA968BB1E212A553A543D /* libPods-AnimationLabTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9746C8188902B91538629D8 /* libPods-AnimationLabTests.a */; };
 		8F25F9231EE68F960052A21D /* Zample21Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25F9221EE68F960052A21D /* Zample21Controller.m */; };
 		8F25F9261EE68FD20052A21D /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25F9251EE68FD20052A21D /* DrawView.m */; };
 		8F25F9291EE6924C0052A21D /* DrawShapelayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F25F9281EE6924C0052A21D /* DrawShapelayerView.m */; };
@@ -21,6 +24,7 @@
 		8F37C0301EFB67B100EE713F /* Guide3View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F37C0261EFB67B100EE713F /* Guide3View.xib */; };
 		8F37C0311EFB67B100EE713F /* Guide4.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0281EFB67B100EE713F /* Guide4.m */; };
 		8F37C0321EFB67B100EE713F /* Guide4View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F37C0291EFB67B100EE713F /* Guide4View.xib */; };
+		8F37C0361EFCDC8300EE713F /* ZA8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0351EFCDC8300EE713F /* ZA8ViewController.m */; };
 		8F5C09A01ECD1EF20061CDEF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09881ECD1EF20061CDEF /* MASCompositeConstraint.m */; };
 		8F5C09A11ECD1EF20061CDEF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C098B1ECD1EF20061CDEF /* MASConstraint.m */; };
 		8F5C09A21ECD1EF20061CDEF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C098D1ECD1EF20061CDEF /* MASConstraintMaker.m */; };
@@ -111,6 +115,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016618C0217F7D5669FF05E4 /* libPods-AnimationLabUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimationLabUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2239B63C1EFDBED1E5150812 /* libPods-AnimationLab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimationLab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E8708252280FA4EA6C86B4 /* Pods-AnimationLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationLab/Pods-AnimationLab.debug.xcconfig"; sourceTree = "<group>"; };
 		8F25F9211EE68F960052A21D /* Zample21Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample21Controller.h; sourceTree = "<group>"; };
 		8F25F9221EE68F960052A21D /* Zample21Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample21Controller.m; sourceTree = "<group>"; };
 		8F25F9241EE68FD20052A21D /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
@@ -135,6 +142,8 @@
 		8F37C0271EFB67B100EE713F /* Guide4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guide4.h; sourceTree = "<group>"; };
 		8F37C0281EFB67B100EE713F /* Guide4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guide4.m; sourceTree = "<group>"; };
 		8F37C0291EFB67B100EE713F /* Guide4View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Guide4View.xib; sourceTree = "<group>"; };
+		8F37C0341EFCDC8300EE713F /* ZA8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA8ViewController.h; sourceTree = "<group>"; };
+		8F37C0351EFCDC8300EE713F /* ZA8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA8ViewController.m; sourceTree = "<group>"; };
 		8F5C09871ECD1EF20061CDEF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		8F5C09881ECD1EF20061CDEF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
 		8F5C09891ECD1EF20061CDEF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -277,6 +286,12 @@
 		8FE9C5241ED42B14003DA221 /* test.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = test.mov; sourceTree = "<group>"; };
 		8FE9C5281ED42CC9003DA221 /* Zample20Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample20Controller.h; sourceTree = "<group>"; };
 		8FE9C5291ED42CC9003DA221 /* Zample20Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample20Controller.m; sourceTree = "<group>"; };
+		BDF894231407FC7A206DAB9A /* Pods-AnimationLabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationLabUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationLabUITests/Pods-AnimationLabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9746C8188902B91538629D8 /* libPods-AnimationLabTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimationLabTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E6606B2E1E8F4062C02A5B /* Pods-AnimationLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationLabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationLabTests/Pods-AnimationLabTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF602FAFB1A457591C4E16B0 /* Pods-AnimationLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationLab/Pods-AnimationLab.release.xcconfig"; sourceTree = "<group>"; };
+		F60B62A4A3816C74FB22E691 /* Pods-AnimationLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationLabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationLabTests/Pods-AnimationLabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF687F742B85D1D162DC2E65 /* Pods-AnimationLabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationLabUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimationLabUITests/Pods-AnimationLabUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +299,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C180EF687558E0F2E6C2202 /* libPods-AnimationLab.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +307,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683DA968BB1E212A553A543D /* libPods-AnimationLabTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,12 +315,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4368DA5300296C22A7D5E8FF /* libPods-AnimationLabUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		795051CB3EE22FF04D8751CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71E8708252280FA4EA6C86B4 /* Pods-AnimationLab.debug.xcconfig */,
+				EF602FAFB1A457591C4E16B0 /* Pods-AnimationLab.release.xcconfig */,
+				F60B62A4A3816C74FB22E691 /* Pods-AnimationLabTests.debug.xcconfig */,
+				E8E6606B2E1E8F4062C02A5B /* Pods-AnimationLabTests.release.xcconfig */,
+				BDF894231407FC7A206DAB9A /* Pods-AnimationLabUITests.debug.xcconfig */,
+				FF687F742B85D1D162DC2E65 /* Pods-AnimationLabUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8F37C0141EFB643200EE713F /* za6_emitter */ = {
 			isa = PBXGroup;
 			children = (
@@ -334,6 +365,15 @@
 				8F37C0291EFB67B100EE713F /* Guide4View.xib */,
 			);
 			path = za7_basic;
+			sourceTree = "<group>";
+		};
+		8F37C0331EFCDC7400EE713F /* za8_jazzhands */ = {
+			isa = PBXGroup;
+			children = (
+				8F37C0341EFCDC8300EE713F /* ZA8ViewController.h */,
+				8F37C0351EFCDC8300EE713F /* ZA8ViewController.m */,
+			);
+			path = za8_jazzhands;
 			sourceTree = "<group>";
 		};
 		8F5C09861ECD1EF20061CDEF /* Masonry */ = {
@@ -456,6 +496,8 @@
 				8FD33A4C1ECC2E6000BC488B /* AnimationLabTests */,
 				8FD33A571ECC2E6000BC488B /* AnimationLabUITests */,
 				8FD33A311ECC2E6000BC488B /* Products */,
+				795051CB3EE22FF04D8751CE /* Pods */,
+				F7433A0C469446DE85EC8BDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -618,6 +660,7 @@
 		8FFC6D521EF0C41400F55173 /* ZampleAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				8F37C0331EFCDC7400EE713F /* za8_jazzhands */,
 				8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */,
 				8FBE484A1EF1109A005F0E74 /* za2_transition_present */,
 				8FBE485A1EF12EE3005F0E74 /* za3_transition_circle */,
@@ -629,6 +672,16 @@
 			path = ZampleAnimation;
 			sourceTree = "<group>";
 		};
+		F7433A0C469446DE85EC8BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2239B63C1EFDBED1E5150812 /* libPods-AnimationLab.a */,
+				D9746C8188902B91538629D8 /* libPods-AnimationLabTests.a */,
+				016618C0217F7D5669FF05E4 /* libPods-AnimationLabUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -636,9 +689,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FD33A5D1ECC2E6000BC488B /* Build configuration list for PBXNativeTarget "AnimationLab" */;
 			buildPhases = (
+				3E826AAC29638EE1C0A43718 /* [CP] Check Pods Manifest.lock */,
 				8FD33A2C1ECC2E6000BC488B /* Sources */,
 				8FD33A2D1ECC2E6000BC488B /* Frameworks */,
 				8FD33A2E1ECC2E6000BC488B /* Resources */,
+				D66B61EE2E8174A2B3711762 /* [CP] Embed Pods Frameworks */,
+				6C4A195CCAEBABE30EFF3AFE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -653,9 +709,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FD33A601ECC2E6000BC488B /* Build configuration list for PBXNativeTarget "AnimationLabTests" */;
 			buildPhases = (
+				AE77B7866BE86B21366207C8 /* [CP] Check Pods Manifest.lock */,
 				8FD33A451ECC2E6000BC488B /* Sources */,
 				8FD33A461ECC2E6000BC488B /* Frameworks */,
 				8FD33A471ECC2E6000BC488B /* Resources */,
+				E884F57777744826E4E254A5 /* [CP] Embed Pods Frameworks */,
+				3437B2DC5C229462A0F91B39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -671,9 +730,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FD33A631ECC2E6000BC488B /* Build configuration list for PBXNativeTarget "AnimationLabUITests" */;
 			buildPhases = (
+				438119D1D3D35A423EC3C79D /* [CP] Check Pods Manifest.lock */,
 				8FD33A501ECC2E6000BC488B /* Sources */,
 				8FD33A511ECC2E6000BC488B /* Frameworks */,
 				8FD33A521ECC2E6000BC488B /* Resources */,
+				5A04C172DE99D775E958999C /* [CP] Embed Pods Frameworks */,
+				720748219839557CB456A764 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -767,6 +829,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3437B2DC5C229462A0F91B39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimationLabTests/Pods-AnimationLabTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E826AAC29638EE1C0A43718 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		438119D1D3D35A423EC3C79D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A04C172DE99D775E958999C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimationLabUITests/Pods-AnimationLabUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C4A195CCAEBABE30EFF3AFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimationLab/Pods-AnimationLab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		720748219839557CB456A764 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimationLabUITests/Pods-AnimationLabUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE77B7866BE86B21366207C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D66B61EE2E8174A2B3711762 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimationLab/Pods-AnimationLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E884F57777744826E4E254A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimationLabTests/Pods-AnimationLabTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FD33A2C1ECC2E6000BC488B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -820,6 +1020,7 @@
 				8FBE48531EF11813005F0E74 /* ZA2RotationPresentAnimation.m in Sources */,
 				8F5C09A61ECD1EF20061CDEF /* NSArray+MASAdditions.m in Sources */,
 				8F25F9231EE68F960052A21D /* Zample21Controller.m in Sources */,
+				8F37C0361EFCDC8300EE713F /* ZA8ViewController.m in Sources */,
 				8FBE485D1EF12F05005F0E74 /* ZA3ViewController.m in Sources */,
 				8F5C09B81ECE88F30061CDEF /* Zample6Controller.m in Sources */,
 				8FE9C5051ED405FB003DA221 /* Zample15Controller.m in Sources */,
@@ -992,6 +1193,7 @@
 		};
 		8FD33A5E1ECC2E6000BC488B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E8708252280FA4EA6C86B4 /* Pods-AnimationLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E3XZ878L8N;
@@ -1004,6 +1206,7 @@
 		};
 		8FD33A5F1ECC2E6000BC488B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF602FAFB1A457591C4E16B0 /* Pods-AnimationLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = E3XZ878L8N;
@@ -1016,6 +1219,7 @@
 		};
 		8FD33A611ECC2E6000BC488B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F60B62A4A3816C74FB22E691 /* Pods-AnimationLabTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = E3XZ878L8N;
@@ -1029,6 +1233,7 @@
 		};
 		8FD33A621ECC2E6000BC488B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E6606B2E1E8F4062C02A5B /* Pods-AnimationLabTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = E3XZ878L8N;
@@ -1042,6 +1247,7 @@
 		};
 		8FD33A641ECC2E6000BC488B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF894231407FC7A206DAB9A /* Pods-AnimationLabUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = E3XZ878L8N;
 				INFOPLIST_FILE = AnimationLabUITests/Info.plist;
@@ -1054,6 +1260,7 @@
 		};
 		8FD33A651ECC2E6000BC488B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF687F742B85D1D162DC2E65 /* Pods-AnimationLabUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = E3XZ878L8N;
 				INFOPLIST_FILE = AnimationLabUITests/Info.plist;

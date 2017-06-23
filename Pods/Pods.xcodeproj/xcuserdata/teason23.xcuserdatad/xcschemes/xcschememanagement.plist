@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JazzHands.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AnimationLab.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AnimationLabTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AnimationLabUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3DFCCBFAA648B84953E8A2DBC5B52A8B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4262BBA69037616CAFAC960466AF77B0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8969039F7EC4E1597D8B1EC2CAF4BA68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6269B810587E623C0993429CEAD4498</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

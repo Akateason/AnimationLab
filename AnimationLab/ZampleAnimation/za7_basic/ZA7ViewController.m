@@ -31,11 +31,9 @@
 {
     [super viewDidLoad] ;
     // Do any additional setup after loading the view.
-    self.title = @"basic" ;
+    self.title = @"basic animation" ;
     self.edgesForExtendedLayout = UIRectEdgeNone ;
     self.view.backgroundColor = [UIColor whiteColor] ;
-    
-
     
     [self showScrollView] ;
 }
@@ -116,7 +114,6 @@
     m_pageCtrl.center = CGPointMake(APPFRAME.size.width / 2, APPFRAME.size.height - 50) ;
 }
 
-
 #pragma mark - UIScrollView Delegate
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
 {
@@ -155,7 +152,6 @@
             break;
     }
 }
-
 
 #pragma mark --
 #pragma mark - StartMoveViewDelegate <NSObject>
