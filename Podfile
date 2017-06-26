@@ -8,6 +8,7 @@ target 'AnimationLab' do
   # Pods for AnimationLab
 
 pod "JazzHands"
+pod “ReactiveObjC”
 
   target 'AnimationLabTests' do
     inherit! :search_paths

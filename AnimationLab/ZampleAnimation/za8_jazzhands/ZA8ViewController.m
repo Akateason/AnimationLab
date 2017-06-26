@@ -8,6 +8,7 @@
 
 #import "ZA8ViewController.h"
 #import "Masonry.h"
+#import "ReactiveObjC.h"
 
 @interface ZA8ViewController ()
 @property (nonatomic,strong) UIImageView *kobeHead ;
@@ -21,6 +22,7 @@
 @property (nonatomic, strong) IFTTTPathPositionAnimation *airplaneFlyingAnimation;
 
 @property (nonatomic, strong) UIButton *button ;
+@property (nonatomic, strong) UIPageControl *pageControl ;
 @end
 
 @implementation ZA8ViewController
@@ -71,6 +73,24 @@
                     action:@selector(backAction)
           forControlEvents:UIControlEventTouchUpInside] ;
     [self.contentView addSubview:self.button] ;
+    
+    self.pageControl = [[UIPageControl alloc] init] ;
+    self.pageControl.numberOfPages = [self numberOfPages] ;
+    CGFloat wid = CGRectGetWidth([UIScreen mainScreen].bounds) ;
+    @weakify(self)
+    [RACObserve(self.scrollView, contentOffset) subscribeNext:^(NSValue *value) {
+        @strongify(self)
+        CGFloat x = self.scrollView.contentOffset.x;
+        int page = x / wid ;
+        NSLog(@"page : %@",@(page)) ;
+        self.pageControl.currentPage = page ;
+    }] ;
+    [self.view addSubview:self.pageControl] ;
+    [self.view bringSubviewToFront:self.pageControl] ;
+    [self.pageControl mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(self.view.mas_bottom).offset(-40) ;
+        make.centerX.equalTo(self.view) ;
+    }] ;
 }
 
 - (void)backAction
