@@ -25,6 +25,8 @@
 		8F37C0311EFB67B100EE713F /* Guide4.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0281EFB67B100EE713F /* Guide4.m */; };
 		8F37C0321EFB67B100EE713F /* Guide4View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F37C0291EFB67B100EE713F /* Guide4View.xib */; };
 		8F37C0361EFCDC8300EE713F /* ZA8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0351EFCDC8300EE713F /* ZA8ViewController.m */; };
+		8F3816D720FDE77000EFF48C /* ZA9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3816D620FDE77000EFF48C /* ZA9ViewController.m */; };
+		8F3816DB20FDEEF300EFF48C /* ZA10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3816DA20FDEEF300EFF48C /* ZA10ViewController.m */; };
 		8F5C09AC1ECD23240061CDEF /* Zample2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09AB1ECD23240061CDEF /* Zample2Controller.m */; };
 		8F5C09AF1ECD26A60061CDEF /* Zample3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09AE1ECD26A60061CDEF /* Zample3Controller.m */; };
 		8F5C09B21ECD3FC90061CDEF /* Zample4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09B11ECD3FC80061CDEF /* Zample4Controller.m */; };
@@ -134,6 +136,10 @@
 		8F37C0291EFB67B100EE713F /* Guide4View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Guide4View.xib; sourceTree = "<group>"; };
 		8F37C0341EFCDC8300EE713F /* ZA8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA8ViewController.h; sourceTree = "<group>"; };
 		8F37C0351EFCDC8300EE713F /* ZA8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA8ViewController.m; sourceTree = "<group>"; };
+		8F3816D520FDE77000EFF48C /* ZA9ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZA9ViewController.h; sourceTree = "<group>"; };
+		8F3816D620FDE77000EFF48C /* ZA9ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZA9ViewController.m; sourceTree = "<group>"; };
+		8F3816D920FDEEF300EFF48C /* ZA10ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZA10ViewController.h; sourceTree = "<group>"; };
+		8F3816DA20FDEEF300EFF48C /* ZA10ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZA10ViewController.m; sourceTree = "<group>"; };
 		8F5C09AA1ECD23240061CDEF /* Zample2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample2Controller.h; sourceTree = "<group>"; };
 		8F5C09AB1ECD23240061CDEF /* Zample2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample2Controller.m; sourceTree = "<group>"; };
 		8F5C09AD1ECD26A60061CDEF /* Zample3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample3Controller.h; sourceTree = "<group>"; };
@@ -344,8 +350,19 @@
 		8F3816D420FDE5E800EFF48C /* za9_jhDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				8F3816D520FDE77000EFF48C /* ZA9ViewController.h */,
+				8F3816D620FDE77000EFF48C /* ZA9ViewController.m */,
 			);
 			path = za9_jhDemo1;
+			sourceTree = "<group>";
+		};
+		8F3816D820FDEED400EFF48C /* za10_jhDemo2 */ = {
+			isa = PBXGroup;
+			children = (
+				8F3816D920FDEEF300EFF48C /* ZA10ViewController.h */,
+				8F3816DA20FDEEF300EFF48C /* ZA10ViewController.m */,
+			);
+			path = za10_jhDemo2;
 			sourceTree = "<group>";
 		};
 		8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */ = {
@@ -599,8 +616,6 @@
 		8FFC6D521EF0C41400F55173 /* ZampleAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				8F3816D420FDE5E800EFF48C /* za9_jhDemo1 */,
-				8F37C0331EFCDC7400EE713F /* za8_jazzhands */,
 				8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */,
 				8FBE484A1EF1109A005F0E74 /* za2_transition_present */,
 				8FBE485A1EF12EE3005F0E74 /* za3_transition_circle */,
@@ -608,6 +623,9 @@
 				8FBE48C11EF64869005F0E74 /* za5_ UIPresentationController */,
 				8F37C0141EFB643200EE713F /* za6_emitter */,
 				8F37C0181EFB677900EE713F /* za7_basic */,
+				8F37C0331EFCDC7400EE713F /* za8_jazzhands */,
+				8F3816D420FDE5E800EFF48C /* za9_jhDemo1 */,
+				8F3816D820FDEED400EFF48C /* za10_jhDemo2 */,
 			);
 			path = ZampleAnimation;
 			sourceTree = "<group>";
@@ -928,6 +946,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F37C0171EFB644600EE713F /* ZA6ViewController.m in Sources */,
+				8F3816D720FDE77000EFF48C /* ZA9ViewController.m in Sources */,
 				8FBE486A1EF21349005F0E74 /* PingTransition.m in Sources */,
 				8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */,
 				8FBE48591EF11FAF005F0E74 /* ZA2RotationDismissAnimation.m in Sources */,
@@ -949,6 +968,7 @@
 				8F25F9291EE6924C0052A21D /* DrawShapelayerView.m in Sources */,
 				8FE9C5111ED4189E003DA221 /* Zample17Controller.m in Sources */,
 				8FBE48461EF10E2A005F0E74 /* ZA1PositiveTransition.m in Sources */,
+				8F3816DB20FDEEF300EFF48C /* ZA10ViewController.m in Sources */,
 				8FE9C50B1ED40960003DA221 /* Zample16Controller.m in Sources */,
 				8F5C09BB1ECEDAF00061CDEF /* Zample7Controller.m in Sources */,
 				8F5C09B51ECD45280061CDEF /* Zample5Controller.m in Sources */,
