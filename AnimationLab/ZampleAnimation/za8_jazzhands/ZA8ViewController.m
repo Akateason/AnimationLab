@@ -9,6 +9,7 @@
 #import "ZA8ViewController.h"
 #import "Masonry.h"
 #import "ReactiveObjC.h"
+#import <XTlib.h>
 
 @interface ZA8ViewController ()
 @property (nonatomic,strong) UIImageView *kobeHead ;
@@ -23,6 +24,10 @@
 
 @property (nonatomic, strong) UIButton *button ;
 @property (nonatomic, strong) UIPageControl *pageControl ;
+
+@property (strong,nonatomic) RootCustomView *circle;
+
+
 @end
 
 @implementation ZA8ViewController
@@ -44,11 +49,22 @@
     [self configureAnimations] ;
     
     
-    [self animateCurrentFrame] ;
+    [self animateCurrentFrame] ;            
 }
 
 - (void)configureUI
 {
+    self.circle = [[RootCustomView alloc] initWithFrame:CGRectMake(0, 0, self.scrollView.frame.size.width * .8, self.scrollView.frame.size.width * .8)] ;
+    [self.contentView addSubview:self.circle] ;
+    [self.circle mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.contentView).offset(60);
+        make.width.equalTo(self.scrollView).multipliedBy(0.8).priorityHigh();
+        make.height.equalTo(self.circle.mas_width);
+        make.centerY.equalTo(self.contentView).multipliedBy(0.8);
+    }];
+    self.circle.xt_completeRound = YES ;
+    
+    
     self.kobeHead = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"kobe"]] ;
     [self.contentView addSubview:self.kobeHead] ;
     
@@ -91,7 +107,37 @@
         make.centerY.equalTo(self.view.mas_bottom).offset(-40) ;
         make.centerX.equalTo(self.view) ;
     }] ;
+    
+    
+    
+    IFTTTBackgroundColorAnimation *scrollBG=[IFTTTBackgroundColorAnimation animationWithView:self.scrollView];
+    [scrollBG addKeyframeForTime:1 color:[UIColor colorWithRed:0.2f green:0.2f blue:0.2f alpha:1.f]];
+    [scrollBG addKeyframeForTime:1.1 color:[UIColor colorWithRed:0.14f green:0.8f blue:1.f alpha:1.f]];
+    [self.animator addAnimation:scrollBG];
+    
+    [self setupCircleAnimation] ;
 }
+
+-(void)setupCircleAnimation{
+    [self keepView:self.circle onPages:@[@(0),@(1),@(2)]];
+    
+    //circle 的背景色从灰变蓝
+    IFTTTBackgroundColorAnimation *circleColor=[IFTTTBackgroundColorAnimation animationWithView:self.circle];
+    [circleColor addKeyframeForTime:0 color:[UIColor colorWithRed:0.4f green:0.4f blue:0.4f alpha:1.f]];
+    [circleColor addKeyframeForTime:1 color:[UIColor colorWithRed:0.14f green:0.8f blue:1.f alpha:1.f]];
+    [self.animator addAnimation:circleColor];
+    
+    //circle 放大
+    IFTTTScaleAnimation *circleScaleAnimation = [IFTTTScaleAnimation animationWithView:self.circle];
+    [circleScaleAnimation addKeyframeForTime:0 scale:1 withEasingFunction:IFTTTEasingFunctionEaseInQuad];
+    [circleScaleAnimation addKeyframeForTime:1 scale:6];
+    [self.animator addAnimation:circleScaleAnimation];
+    
+    //circle 在第二页过一点点时隐藏
+    IFTTTHideAnimation *circleHideAnimation=[IFTTTHideAnimation animationWithView:self.circle hideAt:1.1];
+    [self.animator addAnimation:circleHideAnimation];
+}
+
 
 - (void)backAction
 {
