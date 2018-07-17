@@ -52,7 +52,9 @@
 {
     HomeCell *cell = (HomeCell *)[tableView cellForRowAtIndexPath:indexPath] ;
     NSString *title = cell.textLabel.text ;
-    Class cls = objc_getRequiredClass([title UTF8String]) ;
+    Class cls = NSClassFromString(title) ;
+    if (cls == NULL) return ;
+    
     UIViewController *ctrller = [[cls alloc] init] ;
     ctrller.title = title ;
     [self.navigationController pushViewController:ctrller animated:YES] ;

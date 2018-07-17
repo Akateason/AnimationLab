@@ -25,16 +25,6 @@
 		8F37C0311EFB67B100EE713F /* Guide4.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0281EFB67B100EE713F /* Guide4.m */; };
 		8F37C0321EFB67B100EE713F /* Guide4View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F37C0291EFB67B100EE713F /* Guide4View.xib */; };
 		8F37C0361EFCDC8300EE713F /* ZA8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F37C0351EFCDC8300EE713F /* ZA8ViewController.m */; };
-		8F5C09A01ECD1EF20061CDEF /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09881ECD1EF20061CDEF /* MASCompositeConstraint.m */; };
-		8F5C09A11ECD1EF20061CDEF /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C098B1ECD1EF20061CDEF /* MASConstraint.m */; };
-		8F5C09A21ECD1EF20061CDEF /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C098D1ECD1EF20061CDEF /* MASConstraintMaker.m */; };
-		8F5C09A31ECD1EF20061CDEF /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C098F1ECD1EF20061CDEF /* MASLayoutConstraint.m */; };
-		8F5C09A41ECD1EF20061CDEF /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09931ECD1EF20061CDEF /* MASViewAttribute.m */; };
-		8F5C09A51ECD1EF20061CDEF /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09951ECD1EF20061CDEF /* MASViewConstraint.m */; };
-		8F5C09A61ECD1EF20061CDEF /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09971ECD1EF20061CDEF /* NSArray+MASAdditions.m */; };
-		8F5C09A71ECD1EF20061CDEF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C099A1ECD1EF20061CDEF /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		8F5C09A81ECD1EF20061CDEF /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C099C1ECD1EF20061CDEF /* View+MASAdditions.m */; };
-		8F5C09A91ECD1EF20061CDEF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C099F1ECD1EF20061CDEF /* ViewController+MASAdditions.m */; };
 		8F5C09AC1ECD23240061CDEF /* Zample2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09AB1ECD23240061CDEF /* Zample2Controller.m */; };
 		8F5C09AF1ECD26A60061CDEF /* Zample3Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09AE1ECD26A60061CDEF /* Zample3Controller.m */; };
 		8F5C09B21ECD3FC90061CDEF /* Zample4Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C09B11ECD3FC80061CDEF /* Zample4Controller.m */; };
@@ -144,31 +134,6 @@
 		8F37C0291EFB67B100EE713F /* Guide4View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Guide4View.xib; sourceTree = "<group>"; };
 		8F37C0341EFCDC8300EE713F /* ZA8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZA8ViewController.h; sourceTree = "<group>"; };
 		8F37C0351EFCDC8300EE713F /* ZA8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZA8ViewController.m; sourceTree = "<group>"; };
-		8F5C09871ECD1EF20061CDEF /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		8F5C09881ECD1EF20061CDEF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		8F5C09891ECD1EF20061CDEF /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		8F5C098A1ECD1EF20061CDEF /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		8F5C098B1ECD1EF20061CDEF /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		8F5C098C1ECD1EF20061CDEF /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		8F5C098D1ECD1EF20061CDEF /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		8F5C098E1ECD1EF20061CDEF /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		8F5C098F1ECD1EF20061CDEF /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		8F5C09901ECD1EF20061CDEF /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		8F5C09911ECD1EF20061CDEF /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		8F5C09921ECD1EF20061CDEF /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		8F5C09931ECD1EF20061CDEF /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		8F5C09941ECD1EF20061CDEF /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		8F5C09951ECD1EF20061CDEF /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		8F5C09961ECD1EF20061CDEF /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		8F5C09971ECD1EF20061CDEF /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		8F5C09981ECD1EF20061CDEF /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		8F5C09991ECD1EF20061CDEF /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		8F5C099A1ECD1EF20061CDEF /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		8F5C099B1ECD1EF20061CDEF /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		8F5C099C1ECD1EF20061CDEF /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		8F5C099D1ECD1EF20061CDEF /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		8F5C099E1ECD1EF20061CDEF /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		8F5C099F1ECD1EF20061CDEF /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		8F5C09AA1ECD23240061CDEF /* Zample2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample2Controller.h; sourceTree = "<group>"; };
 		8F5C09AB1ECD23240061CDEF /* Zample2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zample2Controller.m; sourceTree = "<group>"; };
 		8F5C09AD1ECD26A60061CDEF /* Zample3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zample3Controller.h; sourceTree = "<group>"; };
@@ -376,36 +341,11 @@
 			path = za8_jazzhands;
 			sourceTree = "<group>";
 		};
-		8F5C09861ECD1EF20061CDEF /* Masonry */ = {
+		8F3816D420FDE5E800EFF48C /* za9_jhDemo1 */ = {
 			isa = PBXGroup;
 			children = (
-				8F5C09871ECD1EF20061CDEF /* MASCompositeConstraint.h */,
-				8F5C09881ECD1EF20061CDEF /* MASCompositeConstraint.m */,
-				8F5C09891ECD1EF20061CDEF /* MASConstraint+Private.h */,
-				8F5C098A1ECD1EF20061CDEF /* MASConstraint.h */,
-				8F5C098B1ECD1EF20061CDEF /* MASConstraint.m */,
-				8F5C098C1ECD1EF20061CDEF /* MASConstraintMaker.h */,
-				8F5C098D1ECD1EF20061CDEF /* MASConstraintMaker.m */,
-				8F5C098E1ECD1EF20061CDEF /* MASLayoutConstraint.h */,
-				8F5C098F1ECD1EF20061CDEF /* MASLayoutConstraint.m */,
-				8F5C09901ECD1EF20061CDEF /* Masonry.h */,
-				8F5C09911ECD1EF20061CDEF /* MASUtilities.h */,
-				8F5C09921ECD1EF20061CDEF /* MASViewAttribute.h */,
-				8F5C09931ECD1EF20061CDEF /* MASViewAttribute.m */,
-				8F5C09941ECD1EF20061CDEF /* MASViewConstraint.h */,
-				8F5C09951ECD1EF20061CDEF /* MASViewConstraint.m */,
-				8F5C09961ECD1EF20061CDEF /* NSArray+MASAdditions.h */,
-				8F5C09971ECD1EF20061CDEF /* NSArray+MASAdditions.m */,
-				8F5C09981ECD1EF20061CDEF /* NSArray+MASShorthandAdditions.h */,
-				8F5C09991ECD1EF20061CDEF /* NSLayoutConstraint+MASDebugAdditions.h */,
-				8F5C099A1ECD1EF20061CDEF /* NSLayoutConstraint+MASDebugAdditions.m */,
-				8F5C099B1ECD1EF20061CDEF /* View+MASAdditions.h */,
-				8F5C099C1ECD1EF20061CDEF /* View+MASAdditions.m */,
-				8F5C099D1ECD1EF20061CDEF /* View+MASShorthandAdditions.h */,
-				8F5C099E1ECD1EF20061CDEF /* ViewController+MASAdditions.h */,
-				8F5C099F1ECD1EF20061CDEF /* ViewController+MASAdditions.m */,
 			);
-			path = Masonry;
+			path = za9_jhDemo1;
 			sourceTree = "<group>";
 		};
 		8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */ = {
@@ -491,7 +431,6 @@
 		8FD33A271ECC2E6000BC488B = {
 			isa = PBXGroup;
 			children = (
-				8F5C09861ECD1EF20061CDEF /* Masonry */,
 				8FD33A321ECC2E6000BC488B /* AnimationLab */,
 				8FD33A4C1ECC2E6000BC488B /* AnimationLabTests */,
 				8FD33A571ECC2E6000BC488B /* AnimationLabUITests */,
@@ -660,6 +599,7 @@
 		8FFC6D521EF0C41400F55173 /* ZampleAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				8F3816D420FDE5E800EFF48C /* za9_jhDemo1 */,
 				8F37C0331EFCDC7400EE713F /* za8_jazzhands */,
 				8FBE48381EF10E2A005F0E74 /* za1_transition_navigationDelegate */,
 				8FBE484A1EF1109A005F0E74 /* za2_transition_present */,
@@ -758,7 +698,6 @@
 				TargetAttributes = {
 					8FD33A2F1ECC2E6000BC488B = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = E3XZ878L8N;
 						ProvisioningStyle = Automatic;
 					};
 					8FD33A481ECC2E6000BC488B = {
@@ -851,13 +790,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimationLab-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		438119D1D3D35A423EC3C79D /* [CP] Check Pods Manifest.lock */ = {
@@ -866,13 +808,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimationLabUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5A04C172DE99D775E958999C /* [CP] Embed Pods Frameworks */ = {
@@ -896,9 +841,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AnimationLab/Pods-AnimationLab-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/XTColor/XTColor/color/XTColors.plist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XTColors.plist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -926,13 +878,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimationLabTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D66B61EE2E8174A2B3711762 /* [CP] Embed Pods Frameworks */ = {
@@ -973,11 +928,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F37C0171EFB644600EE713F /* ZA6ViewController.m in Sources */,
-				8F5C09A71ECD1EF20061CDEF /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				8FBE486A1EF21349005F0E74 /* PingTransition.m in Sources */,
 				8FD33A3B1ECC2E6000BC488B /* ViewController.m in Sources */,
 				8FBE48591EF11FAF005F0E74 /* ZA2RotationDismissAnimation.m in Sources */,
-				8F5C09A51ECD1EF20061CDEF /* MASViewConstraint.m in Sources */,
 				8FE9C4FF1ED4018E003DA221 /* Zample13Controller.m in Sources */,
 				8FD33A381ECC2E6000BC488B /* AppDelegate.m in Sources */,
 				8FBE48741EF22F51005F0E74 /* PingReverseTransition.m in Sources */,
@@ -993,18 +946,14 @@
 				8FBE48B71EF36083005F0E74 /* ZA4SecViewController.m in Sources */,
 				8F37C02F1EFB67B100EE713F /* Guide3.m in Sources */,
 				8FBE48601EF12F1F005F0E74 /* ZA3SecViewController.m in Sources */,
-				8F5C09A81ECD1EF20061CDEF /* View+MASAdditions.m in Sources */,
 				8F25F9291EE6924C0052A21D /* DrawShapelayerView.m in Sources */,
 				8FE9C5111ED4189E003DA221 /* Zample17Controller.m in Sources */,
 				8FBE48461EF10E2A005F0E74 /* ZA1PositiveTransition.m in Sources */,
 				8FE9C50B1ED40960003DA221 /* Zample16Controller.m in Sources */,
-				8F5C09A01ECD1EF20061CDEF /* MASCompositeConstraint.m in Sources */,
-				8F5C09A41ECD1EF20061CDEF /* MASViewAttribute.m in Sources */,
 				8F5C09BB1ECEDAF00061CDEF /* Zample7Controller.m in Sources */,
 				8F5C09B51ECD45280061CDEF /* Zample5Controller.m in Sources */,
 				8FE9C5141ED41E5D003DA221 /* Zample18Controller.m in Sources */,
 				8FE9C4F21ED3DBEB003DA221 /* Zample11Controller.m in Sources */,
-				8F5C09A21ECD1EF20061CDEF /* MASConstraintMaker.m in Sources */,
 				8FE9C5081ED407A2003DA221 /* ReflectionView.m in Sources */,
 				8FE9C50E1ED40DB5003DA221 /* ScrollView.m in Sources */,
 				8FE9C5021ED4045F003DA221 /* Zample14Controller.m in Sources */,
@@ -1018,16 +967,13 @@
 				8FBE48D01EF6583D005F0E74 /* Z5PresentationController.m in Sources */,
 				8FE9C51D1ED422CF003DA221 /* AnimationViewController.m in Sources */,
 				8FBE48531EF11813005F0E74 /* ZA2RotationPresentAnimation.m in Sources */,
-				8F5C09A61ECD1EF20061CDEF /* NSArray+MASAdditions.m in Sources */,
 				8F25F9231EE68F960052A21D /* Zample21Controller.m in Sources */,
 				8F37C0361EFCDC8300EE713F /* ZA8ViewController.m in Sources */,
 				8FBE485D1EF12F05005F0E74 /* ZA3ViewController.m in Sources */,
 				8F5C09B81ECE88F30061CDEF /* Zample6Controller.m in Sources */,
 				8FE9C5051ED405FB003DA221 /* Zample15Controller.m in Sources */,
-				8F5C09A91ECD1EF20061CDEF /* ViewController+MASAdditions.m in Sources */,
 				8F5C09B21ECD3FC90061CDEF /* Zample4Controller.m in Sources */,
 				8FBE48481EF10E2A005F0E74 /* ZA1SecondController.m in Sources */,
-				8F5C09A11ECD1EF20061CDEF /* MASConstraint.m in Sources */,
 				8FE9C5231ED42A50003DA221 /* Zample19Controller.m in Sources */,
 				8F25F9261EE68FD20052A21D /* DrawView.m in Sources */,
 				8FE9C5171ED4229A003DA221 /* LayerViewController.m in Sources */,
@@ -1036,7 +982,6 @@
 				8FBE48501EF111EF005F0E74 /* ZA2SecViewController.m in Sources */,
 				8FBE48441EF10E2A005F0E74 /* ZA1CollectionViewCell.m in Sources */,
 				8F5C09BE1ECEE0140061CDEF /* Zample8Controller.m in Sources */,
-				8F5C09A31ECD1EF20061CDEF /* MASLayoutConstraint.m in Sources */,
 				8FE9C4F61ED3DF11003DA221 /* Zample12Controller.m in Sources */,
 				8FBE48C71EF64A9B005F0E74 /* ZA5SecController.m in Sources */,
 				8FD33A351ECC2E6000BC488B /* main.m in Sources */,
@@ -1196,7 +1141,7 @@
 			baseConfigurationReference = 71E8708252280FA4EA6C86B4 /* Pods-AnimationLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E3XZ878L8N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AnimationLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teason.AnimationLab;
@@ -1209,7 +1154,7 @@
 			baseConfigurationReference = EF602FAFB1A457591C4E16B0 /* Pods-AnimationLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = E3XZ878L8N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AnimationLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teason.AnimationLab;

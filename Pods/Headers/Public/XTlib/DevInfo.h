@@ -1,0 +1,1 @@
+../../../XTlib/XTlib/XTlib/Stat/Model/DevInfo.h

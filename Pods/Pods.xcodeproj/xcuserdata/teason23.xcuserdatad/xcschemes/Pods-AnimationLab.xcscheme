@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '13C0811B4F8535C06646DAAA2F63DC1B'
-               BlueprintName = 'Pods-AnimationLab'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-AnimationLab.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BB867F5D527C6F7D693204A74EA61203"
+               BlueprintName = "Pods-AnimationLab"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPods-AnimationLab.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

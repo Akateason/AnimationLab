@@ -24,8 +24,6 @@
     self.table.delegate     = self ;
 }
 
-
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return 2 ;
@@ -46,12 +44,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (!indexPath.row)
-    {
+    if (!indexPath.row) {
         [self performSegueWithIdentifier:@"lab2layer" sender:@"CoreAnimation"] ;
     }
-    else
-    {
+    else {
         [self performSegueWithIdentifier:@"lab2animate" sender:@"animation demo"] ;
     }
 }
